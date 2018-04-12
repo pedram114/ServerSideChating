@@ -2,35 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c90fd387-2700-48de-a515-b47acc9552f1" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.ServerSideChating/.idea/vcs.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ServerSideChating/.idea/contentModel.xml" afterPath="$PROJECT_DIR$/.idea/.idea.ServerSideChating/.idea/contentModel.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ServerSideChating/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.ServerSideChating/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Business/SocketClasses/ClientSocket.cs" afterPath="$PROJECT_DIR$/Business/SocketClasses/ClientSocket.cs" />
-      <change beforePath="$PROJECT_DIR$/Business/SocketClasses/SendingMessagesHandle.cs" afterPath="$PROJECT_DIR$/Business/SocketClasses/SendingMessagesHandle.cs" />
-      <change beforePath="$PROJECT_DIR$/Business/bin/Debug/netcoreapp2.0/Business.dll" afterPath="$PROJECT_DIR$/Business/bin/Debug/netcoreapp2.0/Business.dll" />
-      <change beforePath="$PROJECT_DIR$/Business/bin/Debug/netcoreapp2.0/Business.pdb" afterPath="$PROJECT_DIR$/Business/bin/Debug/netcoreapp2.0/Business.pdb" />
-      <change beforePath="$PROJECT_DIR$/Business/bin/Debug/netcoreapp2.0/Common.dll" afterPath="$PROJECT_DIR$/Business/bin/Debug/netcoreapp2.0/Common.dll" />
-      <change beforePath="$PROJECT_DIR$/Business/bin/Debug/netcoreapp2.0/Common.pdb" afterPath="$PROJECT_DIR$/Business/bin/Debug/netcoreapp2.0/Common.pdb" />
-      <change beforePath="$PROJECT_DIR$/Business/obj/Debug/netcoreapp2.0/Business.dll" afterPath="$PROJECT_DIR$/Business/obj/Debug/netcoreapp2.0/Business.dll" />
-      <change beforePath="$PROJECT_DIR$/Business/obj/Debug/netcoreapp2.0/Business.pdb" afterPath="$PROJECT_DIR$/Business/obj/Debug/netcoreapp2.0/Business.pdb" />
-      <change beforePath="$PROJECT_DIR$/Common/UsingModels/SendingMessageQueue.cs" afterPath="$PROJECT_DIR$/Common/UsingModels/SendingMessageQueue.cs" />
-      <change beforePath="$PROJECT_DIR$/Common/bin/Debug/netstandard2.0/Common.dll" afterPath="$PROJECT_DIR$/Common/bin/Debug/netstandard2.0/Common.dll" />
-      <change beforePath="$PROJECT_DIR$/Common/bin/Debug/netstandard2.0/Common.pdb" afterPath="$PROJECT_DIR$/Common/bin/Debug/netstandard2.0/Common.pdb" />
-      <change beforePath="$PROJECT_DIR$/Common/obj/Debug/netstandard2.0/Common.dll" afterPath="$PROJECT_DIR$/Common/obj/Debug/netstandard2.0/Common.dll" />
-      <change beforePath="$PROJECT_DIR$/Common/obj/Debug/netstandard2.0/Common.pdb" afterPath="$PROJECT_DIR$/Common/obj/Debug/netstandard2.0/Common.pdb" />
-      <change beforePath="$PROJECT_DIR$/DataAccessLayer/bin/Debug/netcoreapp2.0/Common.dll" afterPath="$PROJECT_DIR$/DataAccessLayer/bin/Debug/netcoreapp2.0/Common.dll" />
-      <change beforePath="$PROJECT_DIR$/DataAccessLayer/bin/Debug/netcoreapp2.0/Common.pdb" afterPath="$PROJECT_DIR$/DataAccessLayer/bin/Debug/netcoreapp2.0/Common.pdb" />
-      <change beforePath="$PROJECT_DIR$/WebApp/Program.cs" afterPath="$PROJECT_DIR$/WebApp/Program.cs" />
-      <change beforePath="$PROJECT_DIR$/WebApp/Views/Shared/_Layout.cshtml" afterPath="$PROJECT_DIR$/WebApp/Views/Shared/_Layout.cshtml" />
-      <change beforePath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp2.0/Business.dll" afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp2.0/Business.dll" />
-      <change beforePath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp2.0/Business.pdb" afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp2.0/Business.pdb" />
-      <change beforePath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp2.0/Common.dll" afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp2.0/Common.dll" />
-      <change beforePath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp2.0/Common.pdb" afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp2.0/Common.pdb" />
-      <change beforePath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp2.0/WebApp.dll" afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp2.0/WebApp.dll" />
-      <change beforePath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp2.0/WebApp.pdb" afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp2.0/WebApp.pdb" />
-      <change beforePath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp2.0/WebApp.csproj.CoreCompileInputs.cache" afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp2.0/WebApp.csproj.CoreCompileInputs.cache" />
-      <change beforePath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp2.0/WebApp.dll" afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp2.0/WebApp.dll" />
-      <change beforePath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp2.0/WebApp.pdb" afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp2.0/WebApp.pdb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -387,12 +359,12 @@
       <workItem from="1522398443648" duration="4638000" />
       <workItem from="1523044234953" duration="2216000" />
       <workItem from="1523468180128" duration="2234000" />
-      <workItem from="1523480770266" duration="16007000" />
+      <workItem from="1523480770266" duration="16081000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31905000" />
+    <option name="totallyTimeSpent" value="31979000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -405,7 +377,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.4951535" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -413,14 +384,14 @@
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.58596975" sideWeight="0.49030694" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.58596975" sideWeight="0.49030694" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.53645116" sideWeight="0.49353796" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30048466" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39889959" sideWeight="0.49353796" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39889959" sideWeight="0.49353796" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
