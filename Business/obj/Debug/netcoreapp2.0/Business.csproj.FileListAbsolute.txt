@@ -1,0 +1,11 @@
+/Users/pedramgilaniniya/Documents/development/ServerSideChating/ServerSideChating/Business/bin/Debug/netcoreapp2.0/Business.deps.json
+/Users/pedramgilaniniya/Documents/development/ServerSideChating/ServerSideChating/Business/bin/Debug/netcoreapp2.0/Business.dll
+/Users/pedramgilaniniya/Documents/development/ServerSideChating/ServerSideChating/Business/bin/Debug/netcoreapp2.0/Business.pdb
+/Users/pedramgilaniniya/Documents/development/ServerSideChating/ServerSideChating/Business/bin/Debug/netcoreapp2.0/Common.dll
+/Users/pedramgilaniniya/Documents/development/ServerSideChating/ServerSideChating/Business/bin/Debug/netcoreapp2.0/Common.pdb
+/Users/pedramgilaniniya/Documents/development/ServerSideChating/ServerSideChating/Business/obj/Debug/netcoreapp2.0/Business.csproj.CoreCompileInputs.cache
+/Users/pedramgilaniniya/Documents/development/ServerSideChating/ServerSideChating/Business/obj/Debug/netcoreapp2.0/Business.AssemblyInfoInputs.cache
+/Users/pedramgilaniniya/Documents/development/ServerSideChating/ServerSideChating/Business/obj/Debug/netcoreapp2.0/Business.AssemblyInfo.cs
+/Users/pedramgilaniniya/Documents/development/ServerSideChating/ServerSideChating/Business/obj/Debug/netcoreapp2.0/Business.csproj.CopyComplete
+/Users/pedramgilaniniya/Documents/development/ServerSideChating/ServerSideChating/Business/obj/Debug/netcoreapp2.0/Business.dll
+/Users/pedramgilaniniya/Documents/development/ServerSideChating/ServerSideChating/Business/obj/Debug/netcoreapp2.0/Business.pdb

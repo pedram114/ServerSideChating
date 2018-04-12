@@ -1,0 +1,8 @@
+/Users/pedramgilaniniya/Documents/development/ServerSideChating/ServerSideChating/Common/bin/Debug/netstandard2.0/Common.deps.json
+/Users/pedramgilaniniya/Documents/development/ServerSideChating/ServerSideChating/Common/bin/Debug/netstandard2.0/Common.dll
+/Users/pedramgilaniniya/Documents/development/ServerSideChating/ServerSideChating/Common/bin/Debug/netstandard2.0/Common.pdb
+/Users/pedramgilaniniya/Documents/development/ServerSideChating/ServerSideChating/Common/obj/Debug/netstandard2.0/Common.csproj.CoreCompileInputs.cache
+/Users/pedramgilaniniya/Documents/development/ServerSideChating/ServerSideChating/Common/obj/Debug/netstandard2.0/Common.AssemblyInfoInputs.cache
+/Users/pedramgilaniniya/Documents/development/ServerSideChating/ServerSideChating/Common/obj/Debug/netstandard2.0/Common.AssemblyInfo.cs
+/Users/pedramgilaniniya/Documents/development/ServerSideChating/ServerSideChating/Common/obj/Debug/netstandard2.0/Common.dll
+/Users/pedramgilaniniya/Documents/development/ServerSideChating/ServerSideChating/Common/obj/Debug/netstandard2.0/Common.pdb

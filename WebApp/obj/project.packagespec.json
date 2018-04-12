@@ -1,0 +1,57 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/Users/pedramgilaniniya/Documents/development/ServerSideChating/ServerSideChating/WebApp/WebApp.csproj",
+    "projectName": "WebApp",
+    "projectPath": "/Users/pedramgilaniniya/Documents/development/ServerSideChating/ServerSideChating/WebApp/WebApp.csproj",
+    "outputPath": "/Users/pedramgilaniniya/Documents/development/ServerSideChating/ServerSideChating/WebApp/obj/",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp2.0"
+    ],
+    "frameworks": {
+      "netcoreapp2.0": {
+        "projectReferences": {
+          "/Users/pedramgilaniniya/Documents/development/ServerSideChating/ServerSideChating/Business/Business.csproj": {
+            "projectPath": "/Users/pedramgilaniniya/Documents/development/ServerSideChating/ServerSideChating/Business/Business.csproj"
+          },
+          "/Users/pedramgilaniniya/Documents/development/ServerSideChating/ServerSideChating/Common/Common.csproj": {
+            "projectPath": "/Users/pedramgilaniniya/Documents/development/ServerSideChating/ServerSideChating/Common/Common.csproj"
+          },
+          "/Users/pedramgilaniniya/Documents/development/ServerSideChating/ServerSideChating/DataAccessLayer/DataAccessLayer.csproj": {
+            "projectPath": "/Users/pedramgilaniniya/Documents/development/ServerSideChating/ServerSideChating/DataAccessLayer/DataAccessLayer.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.0": {
+      "dependencies": {
+        "Microsoft.AspNetCore.All": {
+          "target": "Package",
+          "version": "[2.0.6, )"
+        },
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.0.0, )",
+          "autoReferenced": true
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}
