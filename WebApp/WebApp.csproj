@@ -14,4 +14,7 @@
     <ProjectReference Include="..\DataAccessLayer\DataAccessLayer.csproj" />
     <ProjectReference Include="..\DataAccessLayer\DataAccessLayer.csproj" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Clients" />
+  </ItemGroup>
 </Project>
