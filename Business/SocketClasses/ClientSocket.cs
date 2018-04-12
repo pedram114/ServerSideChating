@@ -84,6 +84,7 @@ namespace Business.SocketClasses
                 {
                     _readMessagestr = PrepareReceivedData(_readbuffer);
                     var message = DefineReceivedMessage(_readMessagestr);
+                    ClientId = message.FromId;
                     SendingMessageQueue.SendingMessages.Enqueue(message);
                 }
               

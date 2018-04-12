@@ -18,21 +18,29 @@ namespace Business.SocketClasses
                     Thread.Sleep(5000);
                     continue;                    
                 }
-                var currentMessage = (ReceiveMessage) SendingMessageQueue.SendingMessages.Dequeue();
-                var currentSocket = TCPListener.Allclients.FirstOrDefault(m => m.ClientId == currentMessage.ToId);                
-                if (currentSocket != null)
+                
+                var currentMessage = (ReceiveMessage) SendingMessageQueue.SendingMessages.Peek();
+                var currentSocket = TCPListener.Allclients.FirstOrDefault(m => m.ClientId == currentMessage.ToId);
+                if (currentSocket == null)
                 {
-                    currentSocket.SendingMessage = currentMessage.Text;
-                    var newth=new Thread(Sendmessage);
-                    newth.Start(currentSocket);
-                  
+                    SendingMessageQueue.NotConnectClientSendingMessages.Enqueue(SendingMessageQueue.SendingMessages
+                        .Dequeue());
                 }
+                else
+                {
+                    SendingMessageQueue.SendingMessages.Dequeue();
+                    currentSocket.SendingMessage = currentMessage.Text;
+                    new Thread(Sendmessage).Start(currentSocket);                                
+                   
+                }
+
+               
 
             }
             
         }
 
-        private static void Sendmessage(object currentSocket)
+        private void Sendmessage(object currentSocket)
         {
             var thissocket = (ClientSocket) currentSocket;
             var sendMessage = thissocket.SendMessage(thissocket.SendingMessage);

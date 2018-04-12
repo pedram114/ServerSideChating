@@ -1,0 +1,62 @@
+﻿@model object
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_Layout";
+}
+
+<h2>Chat And Enjoy</h2>
+
+<div class="row">
+    <div class="col-md-4">
+        <div class="row">
+            <div class="row"> Chat ID 1</div>
+            <textarea id="textarea1" class="row" style="width: 400px;height: 400px"></textarea>
+            <div class="row">   
+                <div id="submittext1" class="btn btn-primary row" onclick="sendmessage('Client1','Client2')"> send to client 2 </div>
+            </div>
+         
+        </div>
+    </div>
+    <div class="col-md-4"></div>
+    <div class="col-md-4">
+        <div class="row">
+            <div class="row"> Chat ID 2</div>
+            <textarea id="textarea2" class="row" style="width: 400px;height: 400px"></textarea>
+            <div class="row">  
+                <div id="submittext2" class="btn btn-primary row" onclick="sendmessage('Client2','Client1')"> send to client 1 </div>
+            </div>
+        </div>
+    </div>
+    
+</div>
+<script>
+
+    function sendmessage(fromid,toid) {
+
+        debugger;
+        var fromId = fromid;
+        var ToId = toid;
+        var Message = '';
+        if (fromid == 'Client1') {
+            Message = $('#textarea1').val();
+
+        } else {
+            Message = $('#textarea2').val();
+        }
+        var jqxhr = $.get('/Chat/SendMessage?fromId='+fromId+'&ToId='+ToId+'&Message='+Message, function() {
+                alert( "success" );
+            })
+            .done(function() {
+                alert( "second success" );
+            })
+            .fail(function() {
+                alert( "error" );
+            })
+            .always(function() {
+                alert( "finished" );
+            });
+    }
+   
+
+</script>

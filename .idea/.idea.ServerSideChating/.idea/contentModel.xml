@@ -74,6 +74,7 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="bundleconfig.json" t="Include" />
         <e p="Controllers" t="Include">
+          <e p="ChatController.cs" t="Include" />
           <e p="HomeController.cs" t="Include" />
         </e>
         <e p="Models" t="Include">
@@ -91,6 +92,9 @@
         <e p="Views" t="Include">
           <e p="_ViewImports.cshtml" t="Include" />
           <e p="_ViewStart.cshtml" t="Include" />
+          <e p="Chat" t="Include">
+            <e p="Index.cshtml" t="Include" />
+          </e>
           <e p="Home" t="Include">
             <e p="About.cshtml" t="Include" />
             <e p="Contact.cshtml" t="Include" />

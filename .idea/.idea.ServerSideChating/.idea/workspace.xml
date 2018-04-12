@@ -1,7 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c90fd387-2700-48de-a515-b47acc9552f1" name="Default" comment="" />
+    <list default="true" id="c90fd387-2700-48de-a515-b47acc9552f1" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.ServerSideChating/.idea/vcs.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ServerSideChating/.idea/contentModel.xml" afterPath="$PROJECT_DIR$/.idea/.idea.ServerSideChating/.idea/contentModel.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ServerSideChating/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.ServerSideChating/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/Business/SocketClasses/ClientSocket.cs" afterPath="$PROJECT_DIR$/Business/SocketClasses/ClientSocket.cs" />
+      <change beforePath="$PROJECT_DIR$/Business/SocketClasses/SendingMessagesHandle.cs" afterPath="$PROJECT_DIR$/Business/SocketClasses/SendingMessagesHandle.cs" />
+      <change beforePath="$PROJECT_DIR$/Business/bin/Debug/netcoreapp2.0/Business.dll" afterPath="$PROJECT_DIR$/Business/bin/Debug/netcoreapp2.0/Business.dll" />
+      <change beforePath="$PROJECT_DIR$/Business/bin/Debug/netcoreapp2.0/Business.pdb" afterPath="$PROJECT_DIR$/Business/bin/Debug/netcoreapp2.0/Business.pdb" />
+      <change beforePath="$PROJECT_DIR$/Business/bin/Debug/netcoreapp2.0/Common.dll" afterPath="$PROJECT_DIR$/Business/bin/Debug/netcoreapp2.0/Common.dll" />
+      <change beforePath="$PROJECT_DIR$/Business/bin/Debug/netcoreapp2.0/Common.pdb" afterPath="$PROJECT_DIR$/Business/bin/Debug/netcoreapp2.0/Common.pdb" />
+      <change beforePath="$PROJECT_DIR$/Business/obj/Debug/netcoreapp2.0/Business.dll" afterPath="$PROJECT_DIR$/Business/obj/Debug/netcoreapp2.0/Business.dll" />
+      <change beforePath="$PROJECT_DIR$/Business/obj/Debug/netcoreapp2.0/Business.pdb" afterPath="$PROJECT_DIR$/Business/obj/Debug/netcoreapp2.0/Business.pdb" />
+      <change beforePath="$PROJECT_DIR$/Common/UsingModels/SendingMessageQueue.cs" afterPath="$PROJECT_DIR$/Common/UsingModels/SendingMessageQueue.cs" />
+      <change beforePath="$PROJECT_DIR$/Common/bin/Debug/netstandard2.0/Common.dll" afterPath="$PROJECT_DIR$/Common/bin/Debug/netstandard2.0/Common.dll" />
+      <change beforePath="$PROJECT_DIR$/Common/bin/Debug/netstandard2.0/Common.pdb" afterPath="$PROJECT_DIR$/Common/bin/Debug/netstandard2.0/Common.pdb" />
+      <change beforePath="$PROJECT_DIR$/Common/obj/Debug/netstandard2.0/Common.dll" afterPath="$PROJECT_DIR$/Common/obj/Debug/netstandard2.0/Common.dll" />
+      <change beforePath="$PROJECT_DIR$/Common/obj/Debug/netstandard2.0/Common.pdb" afterPath="$PROJECT_DIR$/Common/obj/Debug/netstandard2.0/Common.pdb" />
+      <change beforePath="$PROJECT_DIR$/DataAccessLayer/bin/Debug/netcoreapp2.0/Common.dll" afterPath="$PROJECT_DIR$/DataAccessLayer/bin/Debug/netcoreapp2.0/Common.dll" />
+      <change beforePath="$PROJECT_DIR$/DataAccessLayer/bin/Debug/netcoreapp2.0/Common.pdb" afterPath="$PROJECT_DIR$/DataAccessLayer/bin/Debug/netcoreapp2.0/Common.pdb" />
+      <change beforePath="$PROJECT_DIR$/WebApp/Program.cs" afterPath="$PROJECT_DIR$/WebApp/Program.cs" />
+      <change beforePath="$PROJECT_DIR$/WebApp/Views/Shared/_Layout.cshtml" afterPath="$PROJECT_DIR$/WebApp/Views/Shared/_Layout.cshtml" />
+      <change beforePath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp2.0/Business.dll" afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp2.0/Business.dll" />
+      <change beforePath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp2.0/Business.pdb" afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp2.0/Business.pdb" />
+      <change beforePath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp2.0/Common.dll" afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp2.0/Common.dll" />
+      <change beforePath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp2.0/Common.pdb" afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp2.0/Common.pdb" />
+      <change beforePath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp2.0/WebApp.dll" afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp2.0/WebApp.dll" />
+      <change beforePath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp2.0/WebApp.pdb" afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp2.0/WebApp.pdb" />
+      <change beforePath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp2.0/WebApp.csproj.CoreCompileInputs.cache" afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp2.0/WebApp.csproj.CoreCompileInputs.cache" />
+      <change beforePath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp2.0/WebApp.dll" afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp2.0/WebApp.dll" />
+      <change beforePath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp2.0/WebApp.pdb" afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp2.0/WebApp.pdb" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,100 +58,59 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Program.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebApp/Program.cs">
+      <file leaf-file-name="HomeController.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebApp/Controllers/HomeController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="29" column="16" lean-forward="false" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
+            <state relative-caret-position="270">
+              <caret line="24" column="33" lean-forward="false" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
               <folding>
-                <marker date="1523521608448" expanded="false" signature="6:359" ph="..." />
-                <marker date="1523521608448" expanded="true" signature="377:1124" ph="{...}" />
-                <marker date="1523521608448" expanded="true" signature="404:1122" ph="{...}" />
-                <marker date="1523521608448" expanded="true" signature="457:932" ph="{...}" />
-                <marker date="1523521608448" expanded="true" signature="801:870" ph="{...}" />
+                <marker date="1523469103517" expanded="false" signature="6:175" ph="..." />
+                <marker date="1523469103517" expanded="true" signature="205:821" ph="{...}" />
+                <marker date="1523469103517" expanded="true" signature="252:819" ph="{...}" />
+                <marker date="1523469103517" expanded="true" signature="295:342" ph="{...}" />
+                <marker date="1523469103517" expanded="true" signature="380:500" ph="{...}" />
+                <marker date="1523469103517" expanded="true" signature="540:644" ph="{...}" />
+                <marker date="1523469103517" expanded="true" signature="682:813" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TCPListener.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Business/SocketClasses/TCPListener.cs">
+      <file leaf-file-name="ChatController.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/WebApp/Controllers/ChatController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="57" column="12" lean-forward="false" selection-start-line="57" selection-start-column="12" selection-end-line="57" selection-end-column="12" />
+            <state relative-caret-position="240">
+              <caret line="16" column="12" lean-forward="false" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
               <folding>
-                <marker date="1523521109414" expanded="false" signature="7:241" ph="..." />
-                <marker date="1523521109414" expanded="true" signature="268:1782" ph="{...}" />
-                <marker date="1523521109414" expanded="true" signature="314:1780" ph="{...}" />
-                <marker date="1523521109414" expanded="true" signature="329:468" ph="Properties" />
-                <marker date="1523521109414" expanded="true" signature="479:943" ph="CTOR" />
-                <marker date="1523521109414" expanded="true" signature="534:924" ph="{...}" />
-                <marker date="1523521109414" expanded="true" signature="579:679" ph="{...}" />
-                <marker date="1523521109414" expanded="true" signature="696:806" ph="{...}" />
-                <marker date="1523521109414" expanded="true" signature="844:914" ph="{...}" />
-                <marker date="1523521109414" expanded="true" signature="981:1093" ph="{...}" />
-                <marker date="1523521109414" expanded="true" signature="1129:1252" ph="{...}" />
-                <marker date="1523521109414" expanded="true" signature="1315:1687" ph="{...}" />
-                <marker date="1523521109414" expanded="true" signature="1740:1773" ph="{...}" />
+                <marker date="1523535185844" expanded="true" signature="61:383" ph="{...}" />
+                <marker date="1523535185844" expanded="true" signature="108:381" ph="{...}" />
+                <marker date="1523535185844" expanded="true" signature="166:225" ph="{...}" />
+                <marker date="1523535185844" expanded="true" signature="330:375" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ClientSocket.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Business/SocketClasses/ClientSocket.cs">
+      <file leaf-file-name="Index.cshtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebApp/Views/Chat/Index.cshtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="87" column="16" lean-forward="false" selection-start-line="87" selection-start-column="16" selection-end-line="87" selection-end-column="16" />
+            <state relative-caret-position="120">
+              <caret line="32" column="8" lean-forward="true" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
               <folding>
-                <marker date="1523521221363" expanded="false" signature="6:84" ph="..." />
-                <marker date="1523521221363" expanded="true" signature="118:4007" ph="{...}" />
-                <marker date="1523521221363" expanded="true" signature="150:4005" ph="{...}" />
-                <marker date="1523521221363" expanded="true" signature="165:560" ph="Properties" />
-                <marker date="1523521221363" expanded="true" signature="570:809" ph="CTOR" />
-                <marker date="1523521221363" expanded="true" signature="644:790" ph="{...}" />
-                <marker date="1523521221363" expanded="true" signature="845:1038" ph="{...}" />
-                <marker date="1523521221363" expanded="true" signature="1074:1357" ph="{...}" />
-                <marker date="1523521221363" expanded="true" signature="1091:1167" ph="{...}" />
-                <marker date="1523521221363" expanded="true" signature="1199:1338" ph="{...}" />
-                <marker date="1523521221363" expanded="true" signature="1408:2055" ph="{...}" />
-                <marker date="1523521221363" expanded="true" signature="1425:1715" ph="{...}" />
-                <marker date="1523521221363" expanded="true" signature="1590:1700" ph="{...}" />
-                <marker date="1523521221363" expanded="true" signature="1747:2035" ph="{...}" />
-                <marker date="1523521221363" expanded="true" signature="1897:2020" ph="{...}" />
-                <marker date="1523521221363" expanded="true" signature="2110:2800" ph="{...}" />
-                <marker date="1523521221363" expanded="true" signature="2183:2570" ph="{...}" />
-                <marker date="1523521221363" expanded="true" signature="2285:2541" ph="{...}" />
-                <marker date="1523521221363" expanded="true" signature="2602:2728" ph="{...}" />
-                <marker date="1523521221363" expanded="true" signature="2809:3998" ph="Private Methods" />
-                <marker date="1523521221363" expanded="true" signature="2891:3178" ph="{...}" />
-                <marker date="1523521221363" expanded="true" signature="2908:2984" ph="{...}" />
-                <marker date="1523521221363" expanded="true" signature="3016:3157" ph="{...}" />
-                <marker date="1523521221363" expanded="true" signature="3234:3530" ph="{...}" />
-                <marker date="1523521221363" expanded="true" signature="3260:3346" ph="{...}" />
-                <marker date="1523521221363" expanded="true" signature="3378:3519" ph="{...}" />
-                <marker date="1523521221363" expanded="true" signature="3582:3628" ph="{...}" />
-                <marker date="1523521221363" expanded="true" signature="3679:3725" ph="{...}" />
-                <marker date="1523521221363" expanded="true" signature="3793:3978" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SendingMessagesHandle.cs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Business/SocketClasses/SendingMessagesHandle.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="27" column="18" lean-forward="true" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
-              <folding>
-                <marker date="1523521677340" expanded="true" signature="6:144" ph="..." />
-                <marker date="1523521677340" expanded="true" signature="178:1308" ph="{...}" />
-                <marker date="1523521677340" expanded="true" signature="244:1306" ph="{...}" />
-                <marker date="1523521677340" expanded="true" signature="290:1076" ph="{...}" />
-                <marker date="1523521677340" expanded="true" signature="325:1053" ph="{...}" />
-                <marker date="1523521677340" expanded="true" signature="407:533" ph="{...}" />
-                <marker date="1523521677340" expanded="true" signature="808:1038" ph="{...}" />
-                <marker date="1523521677340" expanded="true" signature="1139:1300" ph="{...}" />
+                <marker date="1523536052439" expanded="true" signature="15:72" ph="@..." />
+                <marker date="1523536052439" expanded="true" signature="99:984" ph="&lt;div.../&gt;" />
+                <marker date="1523536052439" expanded="true" signature="121:533" ph="&lt;div.../&gt;" />
+                <marker date="1523536052439" expanded="true" signature="152:522" ph="&lt;div.../&gt;" />
+                <marker date="1523536052439" expanded="true" signature="324:497" ph="&lt;div.../&gt;" />
+                <marker date="1523536052439" expanded="true" signature="571:972" ph="&lt;div.../&gt;" />
+                <marker date="1523536052439" expanded="true" signature="602:961" ph="&lt;div.../&gt;" />
+                <marker date="1523536052439" expanded="true" signature="774:946" ph="&lt;div.../&gt;" />
+                <marker date="1523536052439" expanded="true" signature="985:1722" ph="&lt;script.../&gt;" />
+                <marker date="1523536052439" expanded="true" signature="1033:1707" ph="{...}" />
+                <marker date="1523536052439" expanded="true" signature="1394:1445" ph="{...}" />
+                <marker date="1523536052439" expanded="true" signature="1476:1534" ph="{...}" />
+                <marker date="1523536052439" expanded="true" signature="1565:1614" ph="{...}" />
+                <marker date="1523536052439" expanded="true" signature="1647:1699" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -139,32 +128,40 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>ReadMessage</find>
+      <find>Contact</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B38CE641-6287-41E5-AB8C-2FA002B9EED9/a4/b19490ac/InternalDbSet`1.cs" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/WebApp/Controllers/HomeController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Business/Interfaces/ISendingMessagesHandle.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Business/SocketClasses/SendingMessagesHandle.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/DataAccessLayer/PedramDbContext.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Common/UsingModels/SendingMessageQueue.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/.Trash/ServerSideChat/ServerSideChat/Classes/ClientSocketsHandle.cs" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/Common/UsingModels/ReceiveMessage.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/WebApp/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DataAccessLayer/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/WebApp/Startup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DataAccessLayer/Startup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0C5060E1-8791-4F94-BBD4-97FF4F1FDA52/61/7aa540f1/ExecutionContextSwitcher.cs" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Common/Enums/ResponseStatus.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Common/UsingModels/Response.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0C5060E1-8791-4F94-BBD4-97FF4F1FDA52/d9/40d59781/AsyncTaskMethodBuilder.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/WebApp/Views/Chat/Index.cshtml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8FD7842C-6BAA-4645-AF1F-D41C841C8E17/4d/8be45598/LazyAsyncResult.cs" root0="SKIP_INSPECTION" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B38CE641-6287-41E5-AB8C-2FA002B9EED9/79/6e9b5353/DbContext.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/WebApp/Controllers/ChatController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApp/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4CE2E3A8-E2EC-4FBF-86BE-4CF0BAB90A28/17/4c049516/ControllerActionInvoker.cs" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Business/Interfaces/ITCPListener.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Business/SocketClasses/TCPListener.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Common/Model/Client.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Business/SocketClasses/ClientSocket.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApp/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApp/Controllers/HomeController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Business/Interfaces/ISendingMessagesHandle.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Business/SocketClasses/SendingMessagesHandle.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DataAccessLayer/PedramDbContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Common/UsingModels/SendingMessageQueue.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Common/UsingModels/ReceiveMessage.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApp/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApp/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B38CE641-6287-41E5-AB8C-2FA002B9EED9/79/6e9b5353/DbContext.cs" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -200,11 +197,14 @@
         <option value="$PROJECT_DIR$/Common/UsingModels/ReceiveMessageQueue.cs" />
         <option value="$PROJECT_DIR$/Business/SocketClasses/ClientSocketsHandle.cs" />
         <option value="$PROJECT_DIR$/Business/Interfaces/ISendingMessagesHandle.cs" />
-        <option value="$PROJECT_DIR$/Common/UsingModels/SendingMessageQueue.cs" />
         <option value="$PROJECT_DIR$/Business/SocketClasses/TCPListener.cs" />
+        <option value="$PROJECT_DIR$/Common/UsingModels/SendingMessageQueue.cs" />
+        <option value="$PROJECT_DIR$/Business/SocketClasses/SendingMessagesHandle.cs" />
         <option value="$PROJECT_DIR$/Business/SocketClasses/ClientSocket.cs" />
         <option value="$PROJECT_DIR$/WebApp/Program.cs" />
-        <option value="$PROJECT_DIR$/Business/SocketClasses/SendingMessagesHandle.cs" />
+        <option value="$PROJECT_DIR$/WebApp/Views/Shared/_Layout.cshtml" />
+        <option value="$PROJECT_DIR$/WebApp/Controllers/ChatController.cs" />
+        <option value="$PROJECT_DIR$/WebApp/Views/Chat/Index.cshtml" />
       </list>
     </option>
   </component>
@@ -217,6 +217,9 @@
   <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1280" />
     <option name="height" value="800" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator currentView="SolutionExplorer" proportions="" version="1">
@@ -245,6 +248,39 @@
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="ServerSideChating (4 projects)" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="WebApp" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="ServerSideChating (4 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="WebApp" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Controllers" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="ServerSideChating (4 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="WebApp" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Views" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="ServerSideChating (4 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="WebApp" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Views" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Chat" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="ServerSideChating (4 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="WebApp" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Views" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Home" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="ServerSideChating (4 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="WebApp" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Views" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Shared" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
           </expand>
           <select />
@@ -351,12 +387,12 @@
       <workItem from="1522398443648" duration="4638000" />
       <workItem from="1523044234953" duration="2216000" />
       <workItem from="1523468180128" duration="2234000" />
-      <workItem from="1523480770266" duration="11839000" />
+      <workItem from="1523480770266" duration="16007000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27737000" />
+    <option name="totallyTimeSpent" value="31905000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -369,21 +405,22 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.4951535" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.58596975" sideWeight="0.509693" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.58596975" sideWeight="0.509693" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.58596975" sideWeight="0.49030694" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.58596975" sideWeight="0.49030694" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.53645116" sideWeight="0.49353796" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30048466" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39889959" sideWeight="0.49353796" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39889959" sideWeight="0.49353796" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -450,26 +487,26 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Business/SocketClasses/ClientSocket.cs</url>
-          <line>100</line>
+          <line>101</line>
           <properties documentPath="$PROJECT_DIR$/Business/SocketClasses/ClientSocket.cs" initialLine="96">
             <startOffsets>
-              <startOffset value="2905" />
+              <startOffset value="2952" />
             </startOffsets>
             <endOffsets>
-              <endOffset value="3157" />
+              <endOffset value="3204" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="27" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Business/SocketClasses/ClientSocket.cs</url>
-          <line>132</line>
+          <line>133</line>
           <properties documentPath="$PROJECT_DIR$/Business/SocketClasses/ClientSocket.cs" initialLine="128">
             <startOffsets>
-              <startOffset value="3702" />
+              <startOffset value="3749" />
             </startOffsets>
             <endOffsets>
-              <endOffset value="3714" />
+              <endOffset value="3761" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="30" />
@@ -501,47 +538,50 @@
           <option name="timeStamp" value="53" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/WebApp/Program.cs</url>
-          <line>24</line>
-          <properties documentPath="$PROJECT_DIR$/WebApp/Program.cs" initialLine="24">
-            <startOffsets>
-              <startOffset value="668" />
-            </startOffsets>
-            <endOffsets>
-              <endOffset value="738" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="59" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Business/SocketClasses/SendingMessagesHandle.cs</url>
-          <line>20</line>
+          <line>21</line>
           <properties documentPath="$PROJECT_DIR$/Business/SocketClasses/SendingMessagesHandle.cs" initialLine="20">
             <startOffsets>
-              <startOffset value="550" />
+              <startOffset value="567" />
             </startOffsets>
             <endOffsets>
-              <endOffset value="634" />
+              <endOffset value="648" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="60" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Business/SocketClasses/SendingMessagesHandle.cs</url>
+          <line>44</line>
+          <properties documentPath="$PROJECT_DIR$/Business/SocketClasses/SendingMessagesHandle.cs" initialLine="44">
+            <startOffsets>
+              <startOffset value="1443" />
+            </startOffsets>
+            <endOffsets>
+              <endOffset value="1489" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/WebApp/Controllers/ChatController.cs</url>
+          <line>16</line>
+          <properties documentPath="$PROJECT_DIR$/WebApp/Controllers/ChatController.cs" initialLine="16">
+            <startOffsets>
+              <startOffset value="353" />
+            </startOffsets>
+            <endOffsets>
+              <endOffset value="365" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="61" />
+      <option name="time" value="64" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ChatRunningTest/Program.cs" />
-    <entry file="file://$PROJECT_DIR$/ChatRunningTest/Controllers/ValuesController.cs" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3b130771-a4e3-442c-bc8f-39badb2847a9/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ServerSideChat/Class1.cs" />
     <entry file="file://$PROJECT_DIR$/Common/Class1.cs" />
     <entry file="file://$PROJECT_DIR$/DataAccessLayer/Class1.cs" />
     <entry file="file://$PROJECT_DIR$/ServerSideChat/Classes/ClientSocketsHandle.cs" />
@@ -646,6 +686,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="7" lean-forward="false" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -678,13 +719,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebApp/Controllers/HomeController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="24" column="33" lean-forward="false" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Common/Enums/ResponseStatus.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -711,17 +745,6 @@
           <folding>
             <marker date="1523484877154" expanded="true" signature="28:201" ph="{...}" />
             <marker date="1523484877154" expanded="true" signature="62:199" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Common/UsingModels/SendingMessageQueue.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="54" lean-forward="false" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
-          <folding>
-            <marker date="1523516549068" expanded="true" signature="63:229" ph="{...}" />
-            <marker date="1523516549068" expanded="true" signature="109:227" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -775,24 +798,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebApp/Program.cs">
+    <entry file="file://$PROJECT_DIR$/Common/UsingModels/SendingMessageQueue.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="29" column="16" lean-forward="false" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
+        <state relative-caret-position="0">
+          <caret line="0" column="33" lean-forward="true" selection-start-line="0" selection-start-column="33" selection-end-line="0" selection-end-column="33" />
           <folding>
-            <marker date="1523521608448" expanded="false" signature="6:359" ph="..." />
-            <marker date="1523521608448" expanded="true" signature="377:1124" ph="{...}" />
-            <marker date="1523521608448" expanded="true" signature="404:1122" ph="{...}" />
-            <marker date="1523521608448" expanded="true" signature="457:932" ph="{...}" />
-            <marker date="1523521608448" expanded="true" signature="801:870" ph="{...}" />
+            <marker date="1523530776372" expanded="true" signature="63:340" ph="{...}" />
+            <marker date="1523530776372" expanded="true" signature="109:338" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Business/SocketClasses/TCPListener.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="57" column="12" lean-forward="false" selection-start-line="57" selection-start-column="12" selection-end-line="57" selection-end-column="12" />
+        <state relative-caret-position="144">
+          <caret line="55" column="10" lean-forward="false" selection-start-line="55" selection-start-column="10" selection-end-line="55" selection-end-column="10" />
           <folding>
             <marker date="1523521109414" expanded="false" signature="7:241" ph="..." />
             <marker date="1523521109414" expanded="true" signature="268:1782" ph="{...}" />
@@ -813,38 +833,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Business/SocketClasses/ClientSocket.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="87" column="16" lean-forward="false" selection-start-line="87" selection-start-column="16" selection-end-line="87" selection-end-column="16" />
+        <state relative-caret-position="132">
+          <caret line="74" column="8" lean-forward="false" selection-start-line="74" selection-start-column="8" selection-end-line="74" selection-end-column="8" />
           <folding>
-            <marker date="1523521221363" expanded="false" signature="6:84" ph="..." />
-            <marker date="1523521221363" expanded="true" signature="118:4007" ph="{...}" />
-            <marker date="1523521221363" expanded="true" signature="150:4005" ph="{...}" />
-            <marker date="1523521221363" expanded="true" signature="165:560" ph="Properties" />
-            <marker date="1523521221363" expanded="true" signature="570:809" ph="CTOR" />
-            <marker date="1523521221363" expanded="true" signature="644:790" ph="{...}" />
-            <marker date="1523521221363" expanded="true" signature="845:1038" ph="{...}" />
-            <marker date="1523521221363" expanded="true" signature="1074:1357" ph="{...}" />
-            <marker date="1523521221363" expanded="true" signature="1091:1167" ph="{...}" />
-            <marker date="1523521221363" expanded="true" signature="1199:1338" ph="{...}" />
-            <marker date="1523521221363" expanded="true" signature="1408:2055" ph="{...}" />
-            <marker date="1523521221363" expanded="true" signature="1425:1715" ph="{...}" />
-            <marker date="1523521221363" expanded="true" signature="1590:1700" ph="{...}" />
-            <marker date="1523521221363" expanded="true" signature="1747:2035" ph="{...}" />
-            <marker date="1523521221363" expanded="true" signature="1897:2020" ph="{...}" />
-            <marker date="1523521221363" expanded="true" signature="2110:2800" ph="{...}" />
-            <marker date="1523521221363" expanded="true" signature="2183:2570" ph="{...}" />
-            <marker date="1523521221363" expanded="true" signature="2285:2541" ph="{...}" />
-            <marker date="1523521221363" expanded="true" signature="2602:2728" ph="{...}" />
-            <marker date="1523521221363" expanded="true" signature="2809:3998" ph="Private Methods" />
-            <marker date="1523521221363" expanded="true" signature="2891:3178" ph="{...}" />
-            <marker date="1523521221363" expanded="true" signature="2908:2984" ph="{...}" />
-            <marker date="1523521221363" expanded="true" signature="3016:3157" ph="{...}" />
-            <marker date="1523521221363" expanded="true" signature="3234:3530" ph="{...}" />
-            <marker date="1523521221363" expanded="true" signature="3260:3346" ph="{...}" />
-            <marker date="1523521221363" expanded="true" signature="3378:3519" ph="{...}" />
-            <marker date="1523521221363" expanded="true" signature="3582:3628" ph="{...}" />
-            <marker date="1523521221363" expanded="true" signature="3679:3725" ph="{...}" />
-            <marker date="1523521221363" expanded="true" signature="3793:3978" ph="{...}" />
+            <marker date="1523533141661" expanded="false" signature="6:84" ph="..." />
+            <marker date="1523533141661" expanded="true" signature="118:4054" ph="{...}" />
+            <marker date="1523533141661" expanded="true" signature="150:4052" ph="{...}" />
+            <marker date="1523533141661" expanded="true" signature="165:560" ph="Properties" />
+            <marker date="1523533141661" expanded="true" signature="570:809" ph="CTOR" />
+            <marker date="1523533141661" expanded="true" signature="644:790" ph="{...}" />
+            <marker date="1523533141661" expanded="true" signature="845:1038" ph="{...}" />
+            <marker date="1523533141661" expanded="true" signature="1074:1357" ph="{...}" />
+            <marker date="1523533141661" expanded="true" signature="1091:1167" ph="{...}" />
+            <marker date="1523533141661" expanded="true" signature="1199:1338" ph="{...}" />
+            <marker date="1523533141661" expanded="true" signature="1408:2055" ph="{...}" />
+            <marker date="1523533141661" expanded="true" signature="1425:1715" ph="{...}" />
+            <marker date="1523533141661" expanded="true" signature="1590:1700" ph="{...}" />
+            <marker date="1523533141661" expanded="true" signature="1747:2035" ph="{...}" />
+            <marker date="1523533141661" expanded="true" signature="1897:2020" ph="{...}" />
+            <marker date="1523533141661" expanded="true" signature="2110:2847" ph="{...}" />
+            <marker date="1523533141661" expanded="true" signature="2183:2617" ph="{...}" />
+            <marker date="1523533141661" expanded="true" signature="2285:2588" ph="{...}" />
+            <marker date="1523533141661" expanded="true" signature="2649:2775" ph="{...}" />
+            <marker date="1523533141661" expanded="true" signature="2856:4045" ph="Private Methods" />
+            <marker date="1523533141661" expanded="true" signature="2938:3225" ph="{...}" />
+            <marker date="1523533141661" expanded="true" signature="2955:3031" ph="{...}" />
+            <marker date="1523533141661" expanded="true" signature="3063:3204" ph="{...}" />
+            <marker date="1523533141661" expanded="true" signature="3281:3577" ph="{...}" />
+            <marker date="1523533141661" expanded="true" signature="3307:3393" ph="{...}" />
+            <marker date="1523533141661" expanded="true" signature="3425:3566" ph="{...}" />
+            <marker date="1523533141661" expanded="true" signature="3629:3675" ph="{...}" />
+            <marker date="1523533141661" expanded="true" signature="3726:3772" ph="{...}" />
+            <marker date="1523533141661" expanded="true" signature="3840:4025" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -852,16 +872,150 @@
     <entry file="file://$PROJECT_DIR$/Business/SocketClasses/SendingMessagesHandle.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="205">
-          <caret line="27" column="18" lean-forward="true" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding>
-            <marker date="1523521677340" expanded="true" signature="6:144" ph="..." />
-            <marker date="1523521677340" expanded="true" signature="178:1308" ph="{...}" />
-            <marker date="1523521677340" expanded="true" signature="244:1306" ph="{...}" />
-            <marker date="1523521677340" expanded="true" signature="290:1076" ph="{...}" />
-            <marker date="1523521677340" expanded="true" signature="325:1053" ph="{...}" />
-            <marker date="1523521677340" expanded="true" signature="407:533" ph="{...}" />
-            <marker date="1523521677340" expanded="true" signature="808:1038" ph="{...}" />
-            <marker date="1523521677340" expanded="true" signature="1139:1300" ph="{...}" />
+            <marker date="1523530876151" expanded="true" signature="6:144" ph="..." />
+            <marker date="1523530876151" expanded="true" signature="178:1589" ph="{...}" />
+            <marker date="1523530876151" expanded="true" signature="244:1587" ph="{...}" />
+            <marker date="1523530876151" expanded="true" signature="290:1364" ph="{...}" />
+            <marker date="1523530876151" expanded="true" signature="325:1341" ph="{...}" />
+            <marker date="1523530876151" expanded="true" signature="407:533" ph="{...}" />
+            <marker date="1523530876151" expanded="true" signature="806:995" ph="{...}" />
+            <marker date="1523530876151" expanded="true" signature="1016:1309" ph="{...}" />
+            <marker date="1523530876151" expanded="true" signature="1420:1581" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebApp/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="38" column="29" lean-forward="false" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
+          <folding>
+            <marker date="1523534364966" expanded="false" signature="6:359" ph="..." />
+            <marker date="1523534364966" expanded="true" signature="377:1307" ph="{...}" />
+            <marker date="1523534364966" expanded="true" signature="404:1305" ph="{...}" />
+            <marker date="1523534364966" expanded="true" signature="538:964" ph="{...}" />
+            <marker date="1523534364966" expanded="true" signature="1008:1123" ph="{...}" />
+            <marker date="1523534364966" expanded="true" signature="1043:1113" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebApp/Views/Home/Index.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="14" column="24" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+          <folding>
+            <marker date="1523469090824" expanded="true" signature="0:41" ph="@..." />
+            <marker date="1523469090824" expanded="true" signature="43:3040" ph="&lt;div.../&gt;" />
+            <marker date="1523469090824" expanded="true" signature="134:439" ph="&lt;ol.../&gt;" />
+            <marker date="1523469090824" expanded="true" signature="444:2583" ph="&lt;div.../&gt;" />
+            <marker date="1523469090824" expanded="true" signature="496:986" ph="&lt;div.../&gt;" />
+            <marker date="1523469090824" expanded="true" signature="618:971" ph="&lt;div.../&gt;" />
+            <marker date="1523469090824" expanded="true" signature="679:952" ph="&lt;p.../&gt;" />
+            <marker date="1523469090824" expanded="true" signature="778:931" ph="&lt;a.../&gt;" />
+            <marker date="1523469090824" expanded="true" signature="995:1508" ph="&lt;div.../&gt;" />
+            <marker date="1523469090824" expanded="true" signature="1116:1493" ph="&lt;div.../&gt;" />
+            <marker date="1523469090824" expanded="true" signature="1177:1474" ph="&lt;p.../&gt;" />
+            <marker date="1523469090824" expanded="true" signature="1300:1453" ph="&lt;a.../&gt;" />
+            <marker date="1523469090824" expanded="true" signature="1517:2035" ph="&lt;div.../&gt;" />
+            <marker date="1523469090824" expanded="true" signature="1643:2020" ph="&lt;div.../&gt;" />
+            <marker date="1523469090824" expanded="true" signature="1704:2001" ph="&lt;p.../&gt;" />
+            <marker date="1523469090824" expanded="true" signature="1827:1980" ph="&lt;a.../&gt;" />
+            <marker date="1523469090824" expanded="true" signature="2044:2572" ph="&lt;div.../&gt;" />
+            <marker date="1523469090824" expanded="true" signature="2167:2557" ph="&lt;div.../&gt;" />
+            <marker date="1523469090824" expanded="true" signature="2228:2538" ph="&lt;p.../&gt;" />
+            <marker date="1523469090824" expanded="true" signature="2364:2517" ph="&lt;a.../&gt;" />
+            <marker date="1523469090824" expanded="true" signature="2588:2809" ph="&lt;a.../&gt;" />
+            <marker date="1523469090824" expanded="true" signature="2814:3033" ph="&lt;a.../&gt;" />
+            <marker date="1523469090824" expanded="true" signature="3042:5329" ph="&lt;div.../&gt;" />
+            <marker date="1523469090824" expanded="true" signature="3064:3321" ph="&lt;div.../&gt;" />
+            <marker date="1523469090824" expanded="true" signature="3129:3310" ph="&lt;ul.../&gt;" />
+            <marker date="1523469090824" expanded="true" signature="3326:3999" ph="&lt;div.../&gt;" />
+            <marker date="1523469090824" expanded="true" signature="3381:3988" ph="&lt;ul.../&gt;" />
+            <marker date="1523469090824" expanded="true" signature="4004:4887" ph="&lt;div.../&gt;" />
+            <marker date="1523469090824" expanded="true" signature="4061:4876" ph="&lt;ul.../&gt;" />
+            <marker date="1523469090824" expanded="true" signature="4892:5322" ph="&lt;div.../&gt;" />
+            <marker date="1523469090824" expanded="true" signature="4957:5311" ph="&lt;ul.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebApp/Views/Shared/_Layout.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="30" column="31" lean-forward="false" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+          <folding>
+            <marker date="1523534454356" expanded="true" signature="16:3411" ph="&lt;html.../&gt;" />
+            <marker date="1523534454356" expanded="true" signature="23:840" ph="&lt;head.../&gt;" />
+            <marker date="1523534454356" expanded="true" signature="188:378" ph="&lt;environment.../&gt;" />
+            <marker date="1523534454356" expanded="true" signature="383:832" ph="&lt;environment.../&gt;" />
+            <marker date="1523534454356" expanded="true" signature="841:3403" ph="&lt;body.../&gt;" />
+            <marker date="1523534454356" expanded="true" signature="852:2014" ph="&lt;nav.../&gt;" />
+            <marker date="1523534454356" expanded="true" signature="913:2003" ph="&lt;div.../&gt;" />
+            <marker date="1523534454356" expanded="true" signature="949:1460" ph="&lt;div.../&gt;" />
+            <marker date="1523534454356" expanded="true" signature="993:1337" ph="&lt;button.../&gt;" />
+            <marker date="1523534454356" expanded="true" signature="1473:1988" ph="&lt;div.../&gt;" />
+            <marker date="1523534454356" expanded="true" signature="1528:1969" ph="&lt;ul.../&gt;" />
+            <marker date="1523534454356" expanded="true" signature="2019:2178" ph="&lt;div.../&gt;" />
+            <marker date="1523534454356" expanded="true" signature="2101:2167" ph="&lt;footer.../&gt;" />
+            <marker date="1523534454356" expanded="true" signature="2184:2438" ph="&lt;environment.../&gt;" />
+            <marker date="1523534454356" expanded="true" signature="2443:3347" ph="&lt;environment.../&gt;" />
+            <marker date="1523534454356" expanded="true" signature="2487:2835" ph="&lt;script.../&gt;" />
+            <marker date="1523534454356" expanded="true" signature="2844:3253" ph="&lt;script.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebApp/Controllers/HomeController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="24" column="33" lean-forward="false" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+          <folding>
+            <marker date="1523469103517" expanded="false" signature="6:175" ph="..." />
+            <marker date="1523469103517" expanded="true" signature="205:821" ph="{...}" />
+            <marker date="1523469103517" expanded="true" signature="252:819" ph="{...}" />
+            <marker date="1523469103517" expanded="true" signature="295:342" ph="{...}" />
+            <marker date="1523469103517" expanded="true" signature="380:500" ph="{...}" />
+            <marker date="1523469103517" expanded="true" signature="540:644" ph="{...}" />
+            <marker date="1523469103517" expanded="true" signature="682:813" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebApp/Views/Chat/Index.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="32" column="8" lean-forward="true" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
+          <folding>
+            <marker date="1523536052439" expanded="true" signature="15:72" ph="@..." />
+            <marker date="1523536052439" expanded="true" signature="99:984" ph="&lt;div.../&gt;" />
+            <marker date="1523536052439" expanded="true" signature="121:533" ph="&lt;div.../&gt;" />
+            <marker date="1523536052439" expanded="true" signature="152:522" ph="&lt;div.../&gt;" />
+            <marker date="1523536052439" expanded="true" signature="324:497" ph="&lt;div.../&gt;" />
+            <marker date="1523536052439" expanded="true" signature="571:972" ph="&lt;div.../&gt;" />
+            <marker date="1523536052439" expanded="true" signature="602:961" ph="&lt;div.../&gt;" />
+            <marker date="1523536052439" expanded="true" signature="774:946" ph="&lt;div.../&gt;" />
+            <marker date="1523536052439" expanded="true" signature="985:1722" ph="&lt;script.../&gt;" />
+            <marker date="1523536052439" expanded="true" signature="1033:1707" ph="{...}" />
+            <marker date="1523536052439" expanded="true" signature="1394:1445" ph="{...}" />
+            <marker date="1523536052439" expanded="true" signature="1476:1534" ph="{...}" />
+            <marker date="1523536052439" expanded="true" signature="1565:1614" ph="{...}" />
+            <marker date="1523536052439" expanded="true" signature="1647:1699" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebApp/Controllers/ChatController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="12" lean-forward="false" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+          <folding>
+            <marker date="1523535185844" expanded="true" signature="61:383" ph="{...}" />
+            <marker date="1523535185844" expanded="true" signature="108:381" ph="{...}" />
+            <marker date="1523535185844" expanded="true" signature="166:225" ph="{...}" />
+            <marker date="1523535185844" expanded="true" signature="330:375" ph="{...}" />
           </folding>
         </state>
       </provider>

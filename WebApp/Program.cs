@@ -16,28 +16,35 @@ namespace WebApp
 {
     public class Program
     {
+        private static readonly ITCPListener _listener = new TCPListener(9990);
+
         public static void Main(string[] args)
         {
-            ITCPListener listener = new TCPListener(9990);
-            listener.ListenToPort();
+            _listener.ListenToPort();
             
             ISendingMessagesHandle messageshandle=new SendingMessagesHandle();
             var nth=new Thread(new ThreadStart(messageshandle.CheckMessageQueue));
             nth.Start();
             
-            while (true)
-            {
-                listener.AcceptSocket();
-            }
+            var nths=new Thread(new ThreadStart(AcceptSocket));
+            nths.Start();
+
+           
             BuildWebHost(args).Run();
            
 
 
         }
 
-       
+        private static void AcceptSocket()
+        {
+            while (true)
+            {
+                _listener.AcceptSocket();
+            }
+        }
 
-        public static IWebHost BuildWebHost(string[] args) =>
+        private static IWebHost BuildWebHost(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
                 .UseStartup<Startup>()
                 .Build();
