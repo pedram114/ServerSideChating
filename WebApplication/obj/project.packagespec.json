@@ -1,0 +1,85 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/Users/pedramgilaniniya/Documents/development/ServerSideChating/ServerSideChating/WebApplication/WebApplication.csproj",
+    "projectName": "WebApplication",
+    "projectPath": "/Users/pedramgilaniniya/Documents/development/ServerSideChating/ServerSideChating/WebApplication/WebApplication.csproj",
+    "outputPath": "/Users/pedramgilaniniya/Documents/development/ServerSideChating/ServerSideChating/WebApplication/obj/",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp2.0"
+    ],
+    "frameworks": {
+      "netcoreapp2.0": {
+        "projectReferences": {
+          "/Users/pedramgilaniniya/Documents/development/ServerSideChating/ServerSideChating/Business/Business.csproj": {
+            "projectPath": "/Users/pedramgilaniniya/Documents/development/ServerSideChating/ServerSideChating/Business/Business.csproj"
+          },
+          "/Users/pedramgilaniniya/Documents/development/ServerSideChating/ServerSideChating/Common/Common.csproj": {
+            "projectPath": "/Users/pedramgilaniniya/Documents/development/ServerSideChating/ServerSideChating/Common/Common.csproj"
+          },
+          "/Users/pedramgilaniniya/Documents/development/ServerSideChating/ServerSideChating/DataAccessLayer/DataAccessLayer.csproj": {
+            "projectPath": "/Users/pedramgilaniniya/Documents/development/ServerSideChating/ServerSideChating/DataAccessLayer/DataAccessLayer.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.0": {
+      "dependencies": {
+        "Microsoft.AspNetCore.All": {
+          "target": "Package",
+          "version": "[2.0.6, )"
+        },
+        "Microsoft.AspNetCore.Identity": {
+          "target": "Package",
+          "version": "[2.1.0-preview1-final, )"
+        },
+        "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+          "target": "Package",
+          "version": "[2.1.0-preview1-final, )"
+        },
+        "Microsoft.EntityFrameworkCore": {
+          "target": "Package",
+          "version": "[2.1.0-preview1-final, )"
+        },
+        "Microsoft.EntityFrameworkCore.Design": {
+          "target": "Package",
+          "version": "[2.1.0-preview1-final, )"
+        },
+        "Microsoft.EntityFrameworkCore.SqlServer": {
+          "target": "Package",
+          "version": "[2.1.0-preview1-final, )"
+        },
+        "Microsoft.EntityFrameworkCore.SqlServer.Design": {
+          "target": "Package",
+          "version": "[2.0.0-preview1-final, )"
+        },
+        "Microsoft.EntityFrameworkCore.Tools": {
+          "target": "Package",
+          "version": "[2.1.0-preview1-final, )"
+        },
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.0.0, )",
+          "autoReferenced": true
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}

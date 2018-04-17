@@ -1,0 +1,18 @@
+﻿<Properties StartupConfiguration="{1A1E1EA5-4705-4361-B817-893CBDE9C1F2}|Default">
+  <MonoDevelop.Ide.ItemProperties.ClientSideWebApp PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="WebApp/Program.cs">
+    <Files>
+      <File FileName="Business/ServerSideSocketClasses/SendingMessagesHandle.cs" Line="23" Column="18" />
+      <File FileName="Business/ServerSideSocketClasses/TCPListener.cs" Line="17" Column="30" />
+      <File FileName="WebApp/Program.cs" Line="25" Column="38" />
+      <File FileName="DataAccessLayer/PedramDbContext.cs" Line="17" Column="24" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.DataAccessLayer PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

@@ -1,0 +1,771 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d3737af1-09ef-4262-be68-78f71454348b" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.ServerClientChat/.idea/contentModel.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.ServerClientChat/.idea/indexLayout.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.ServerClientChat/.idea/modules.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.ServerClientChat/.idea/vcs.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.ServerClientChat/riderModule.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Business/ClientSideSocketClasses/SocketHandler.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Business/ServerSideSocketClasses/ClientSocket.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Business/ServerSideSocketClasses/SendingMessagesHandle.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Business/ServerSideSocketClasses/TCPListener.cs" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Business/SharedClasses/MessageHandle.cs" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ServerSideChating/.idea/contentModel.xml" afterPath="$PROJECT_DIR$/.idea/.idea.ServerSideChating/.idea/contentModel.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ServerSideChating/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.ServerSideChating/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/Business/Business.csproj" afterPath="$PROJECT_DIR$/Business/Business.csproj" />
+      <change beforePath="$PROJECT_DIR$/Business/Interfaces/ITCPListener.cs" afterPath="$PROJECT_DIR$/Business/Interfaces/ITCPListener.cs" />
+      <change beforePath="$PROJECT_DIR$/Business/SocketClasses/ClientSocket.cs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Business/SocketClasses/SendingMessagesHandle.cs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Business/SocketClasses/TCPListener.cs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Business/bin/Debug/netcoreapp2.0/Business.dll" afterPath="$PROJECT_DIR$/Business/bin/Debug/netcoreapp2.0/Business.dll" />
+      <change beforePath="$PROJECT_DIR$/Business/bin/Debug/netcoreapp2.0/Business.pdb" afterPath="$PROJECT_DIR$/Business/bin/Debug/netcoreapp2.0/Business.pdb" />
+      <change beforePath="$PROJECT_DIR$/Business/bin/Debug/netcoreapp2.0/Common.dll" afterPath="$PROJECT_DIR$/Business/bin/Debug/netcoreapp2.0/Common.dll" />
+      <change beforePath="$PROJECT_DIR$/Business/bin/Debug/netcoreapp2.0/Common.pdb" afterPath="$PROJECT_DIR$/Business/bin/Debug/netcoreapp2.0/Common.pdb" />
+      <change beforePath="$PROJECT_DIR$/Business/obj/Debug/netcoreapp2.0/Business.AssemblyInfo.cs" afterPath="$PROJECT_DIR$/Business/obj/Debug/netcoreapp2.0/Business.AssemblyInfo.cs" />
+      <change beforePath="$PROJECT_DIR$/Business/obj/Debug/netcoreapp2.0/Business.csproj.CoreCompileInputs.cache" afterPath="$PROJECT_DIR$/Business/obj/Debug/netcoreapp2.0/Business.csproj.CoreCompileInputs.cache" />
+      <change beforePath="$PROJECT_DIR$/Business/obj/Debug/netcoreapp2.0/Business.csproj.FileListAbsolute.txt" afterPath="$PROJECT_DIR$/Business/obj/Debug/netcoreapp2.0/Business.csproj.FileListAbsolute.txt" />
+      <change beforePath="$PROJECT_DIR$/Business/obj/Debug/netcoreapp2.0/Business.dll" afterPath="$PROJECT_DIR$/Business/obj/Debug/netcoreapp2.0/Business.dll" />
+      <change beforePath="$PROJECT_DIR$/Business/obj/Debug/netcoreapp2.0/Business.pdb" afterPath="$PROJECT_DIR$/Business/obj/Debug/netcoreapp2.0/Business.pdb" />
+      <change beforePath="$PROJECT_DIR$/ClientSideWebApp/ClientSideWebApp.csproj" afterPath="$PROJECT_DIR$/ClientSideWebApp/ClientSideWebApp.csproj" />
+      <change beforePath="$PROJECT_DIR$/ClientSideWebApp/Controllers/HomeController.cs" afterPath="$PROJECT_DIR$/ClientSideWebApp/Controllers/HomeController.cs" />
+      <change beforePath="$PROJECT_DIR$/ClientSideWebApp/Models/ErrorViewModel.cs" afterPath="$PROJECT_DIR$/ClientSideWebApp/Models/ErrorViewModel.cs" />
+      <change beforePath="$PROJECT_DIR$/ClientSideWebApp/Program.cs" afterPath="$PROJECT_DIR$/ClientSideWebApp/Program.cs" />
+      <change beforePath="$PROJECT_DIR$/ClientSideWebApp/Startup.cs" afterPath="$PROJECT_DIR$/ClientSideWebApp/Startup.cs" />
+      <change beforePath="$PROJECT_DIR$/ClientSideWebApp/Views/Home/About.cshtml" afterPath="$PROJECT_DIR$/ClientSideWebApp/Views/Home/About.cshtml" />
+      <change beforePath="$PROJECT_DIR$/ClientSideWebApp/Views/Home/Contact.cshtml" afterPath="$PROJECT_DIR$/ClientSideWebApp/Views/Home/Contact.cshtml" />
+      <change beforePath="$PROJECT_DIR$/ClientSideWebApp/Views/Home/Index.cshtml" afterPath="$PROJECT_DIR$/ClientSideWebApp/Views/Home/Index.cshtml" />
+      <change beforePath="$PROJECT_DIR$/ClientSideWebApp/Views/Shared/Error.cshtml" afterPath="$PROJECT_DIR$/ClientSideWebApp/Views/Shared/Error.cshtml" />
+      <change beforePath="$PROJECT_DIR$/ClientSideWebApp/Views/Shared/_Layout.cshtml" afterPath="$PROJECT_DIR$/ClientSideWebApp/Views/Shared/_Layout.cshtml" />
+      <change beforePath="$PROJECT_DIR$/ClientSideWebApp/Views/Shared/_ValidationScriptsPartial.cshtml" afterPath="$PROJECT_DIR$/ClientSideWebApp/Views/Shared/_ValidationScriptsPartial.cshtml" />
+      <change beforePath="$PROJECT_DIR$/ClientSideWebApp/Views/_ViewImports.cshtml" afterPath="$PROJECT_DIR$/ClientSideWebApp/Views/_ViewImports.cshtml" />
+      <change beforePath="$PROJECT_DIR$/ClientSideWebApp/Views/_ViewStart.cshtml" afterPath="$PROJECT_DIR$/ClientSideWebApp/Views/_ViewStart.cshtml" />
+      <change beforePath="$PROJECT_DIR$/ClientSideWebApp/bin/Debug/netcoreapp2.0/ClientSideWebApp.deps.json" afterPath="$PROJECT_DIR$/ClientSideWebApp/bin/Debug/netcoreapp2.0/ClientSideWebApp.deps.json" />
+      <change beforePath="$PROJECT_DIR$/ClientSideWebApp/bin/Debug/netcoreapp2.0/ClientSideWebApp.dll" afterPath="$PROJECT_DIR$/ClientSideWebApp/bin/Debug/netcoreapp2.0/ClientSideWebApp.dll" />
+      <change beforePath="$PROJECT_DIR$/ClientSideWebApp/bin/Debug/netcoreapp2.0/ClientSideWebApp.pdb" afterPath="$PROJECT_DIR$/ClientSideWebApp/bin/Debug/netcoreapp2.0/ClientSideWebApp.pdb" />
+      <change beforePath="$PROJECT_DIR$/ClientSideWebApp/obj/ClientSideWebApp.csproj.nuget.cache" afterPath="$PROJECT_DIR$/ClientSideWebApp/obj/ClientSideWebApp.csproj.nuget.cache" />
+      <change beforePath="$PROJECT_DIR$/ClientSideWebApp/obj/Debug/netcoreapp2.0/ClientSideWebApp.AssemblyInfo.cs" afterPath="$PROJECT_DIR$/ClientSideWebApp/obj/Debug/netcoreapp2.0/ClientSideWebApp.AssemblyInfo.cs" />
+      <change beforePath="$PROJECT_DIR$/ClientSideWebApp/obj/Debug/netcoreapp2.0/ClientSideWebApp.csproj.CoreCompileInputs.cache" afterPath="$PROJECT_DIR$/ClientSideWebApp/obj/Debug/netcoreapp2.0/ClientSideWebApp.csproj.CoreCompileInputs.cache" />
+      <change beforePath="$PROJECT_DIR$/ClientSideWebApp/obj/Debug/netcoreapp2.0/ClientSideWebApp.csproj.FileListAbsolute.txt" afterPath="$PROJECT_DIR$/ClientSideWebApp/obj/Debug/netcoreapp2.0/ClientSideWebApp.csproj.FileListAbsolute.txt" />
+      <change beforePath="$PROJECT_DIR$/ClientSideWebApp/obj/Debug/netcoreapp2.0/ClientSideWebApp.dll" afterPath="$PROJECT_DIR$/ClientSideWebApp/obj/Debug/netcoreapp2.0/ClientSideWebApp.dll" />
+      <change beforePath="$PROJECT_DIR$/ClientSideWebApp/obj/Debug/netcoreapp2.0/ClientSideWebApp.pdb" afterPath="$PROJECT_DIR$/ClientSideWebApp/obj/Debug/netcoreapp2.0/ClientSideWebApp.pdb" />
+      <change beforePath="$PROJECT_DIR$/ClientSideWebApp/obj/project.assets.json" afterPath="$PROJECT_DIR$/ClientSideWebApp/obj/project.assets.json" />
+      <change beforePath="$PROJECT_DIR$/ClientSideWebApp/obj/project.packagespec.json" afterPath="$PROJECT_DIR$/ClientSideWebApp/obj/project.packagespec.json" />
+      <change beforePath="$PROJECT_DIR$/ClientSideWebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.js" afterPath="$PROJECT_DIR$/ClientSideWebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.js" />
+      <change beforePath="$PROJECT_DIR$/ClientSideWebApp/wwwroot/lib/bootstrap/dist/js/npm.js" afterPath="$PROJECT_DIR$/ClientSideWebApp/wwwroot/lib/bootstrap/dist/js/npm.js" />
+      <change beforePath="$PROJECT_DIR$/ClientSideWebApp/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js" afterPath="$PROJECT_DIR$/ClientSideWebApp/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js" />
+      <change beforePath="$PROJECT_DIR$/ClientSideWebApp/wwwroot/lib/jquery-validation/dist/jquery.validate.js" afterPath="$PROJECT_DIR$/ClientSideWebApp/wwwroot/lib/jquery-validation/dist/jquery.validate.js" />
+      <change beforePath="$PROJECT_DIR$/Common/Enums/ResponseStatus.cs" afterPath="$PROJECT_DIR$/Common/Enums/ResponseStatus.cs" />
+      <change beforePath="$PROJECT_DIR$/Common/Model/Client.cs" afterPath="$PROJECT_DIR$/Common/Model/Client.cs" />
+      <change beforePath="$PROJECT_DIR$/Common/UsingModels/ReceiveMessage.cs" afterPath="$PROJECT_DIR$/Common/UsingModels/ReceiveMessage.cs" />
+      <change beforePath="$PROJECT_DIR$/Common/UsingModels/Response.cs" afterPath="$PROJECT_DIR$/Common/UsingModels/Response.cs" />
+      <change beforePath="$PROJECT_DIR$/Common/UsingModels/SendingMessageQueue.cs" afterPath="$PROJECT_DIR$/Common/UsingModels/SendingMessageQueue.cs" />
+      <change beforePath="$PROJECT_DIR$/Common/bin/Debug/netstandard2.0/Common.dll" afterPath="$PROJECT_DIR$/Common/bin/Debug/netstandard2.0/Common.dll" />
+      <change beforePath="$PROJECT_DIR$/Common/bin/Debug/netstandard2.0/Common.pdb" afterPath="$PROJECT_DIR$/Common/bin/Debug/netstandard2.0/Common.pdb" />
+      <change beforePath="$PROJECT_DIR$/Common/obj/Debug/netstandard2.0/Common.AssemblyInfo.cs" afterPath="$PROJECT_DIR$/Common/obj/Debug/netstandard2.0/Common.AssemblyInfo.cs" />
+      <change beforePath="$PROJECT_DIR$/Common/obj/Debug/netstandard2.0/Common.dll" afterPath="$PROJECT_DIR$/Common/obj/Debug/netstandard2.0/Common.dll" />
+      <change beforePath="$PROJECT_DIR$/Common/obj/Debug/netstandard2.0/Common.pdb" afterPath="$PROJECT_DIR$/Common/obj/Debug/netstandard2.0/Common.pdb" />
+      <change beforePath="$PROJECT_DIR$/DataAccessLayer/Migrations/20180411174543_InitialCreate.cs" afterPath="$PROJECT_DIR$/DataAccessLayer/Migrations/20180411174543_InitialCreate.cs" />
+      <change beforePath="$PROJECT_DIR$/DataAccessLayer/Migrations/PedramDbContextModelSnapshot.cs" afterPath="$PROJECT_DIR$/DataAccessLayer/Migrations/PedramDbContextModelSnapshot.cs" />
+      <change beforePath="$PROJECT_DIR$/DataAccessLayer/PedramDbContext.cs" afterPath="$PROJECT_DIR$/DataAccessLayer/PedramDbContext.cs" />
+      <change beforePath="$PROJECT_DIR$/DataAccessLayer/Program.cs" afterPath="$PROJECT_DIR$/DataAccessLayer/Program.cs" />
+      <change beforePath="$PROJECT_DIR$/DataAccessLayer/Startup.cs" afterPath="$PROJECT_DIR$/DataAccessLayer/Startup.cs" />
+      <change beforePath="$PROJECT_DIR$/DataAccessLayer/bin/Debug/netcoreapp2.0/Common.dll" afterPath="$PROJECT_DIR$/DataAccessLayer/bin/Debug/netcoreapp2.0/Common.dll" />
+      <change beforePath="$PROJECT_DIR$/DataAccessLayer/bin/Debug/netcoreapp2.0/Common.pdb" afterPath="$PROJECT_DIR$/DataAccessLayer/bin/Debug/netcoreapp2.0/Common.pdb" />
+      <change beforePath="$PROJECT_DIR$/DataAccessLayer/bin/Debug/netcoreapp2.0/DataAccessLayer.dll" afterPath="$PROJECT_DIR$/DataAccessLayer/bin/Debug/netcoreapp2.0/DataAccessLayer.dll" />
+      <change beforePath="$PROJECT_DIR$/DataAccessLayer/bin/Debug/netcoreapp2.0/DataAccessLayer.pdb" afterPath="$PROJECT_DIR$/DataAccessLayer/bin/Debug/netcoreapp2.0/DataAccessLayer.pdb" />
+      <change beforePath="$PROJECT_DIR$/DataAccessLayer/obj/Debug/netcoreapp2.0/DataAccessLayer.AssemblyInfo.cs" afterPath="$PROJECT_DIR$/DataAccessLayer/obj/Debug/netcoreapp2.0/DataAccessLayer.AssemblyInfo.cs" />
+      <change beforePath="$PROJECT_DIR$/DataAccessLayer/obj/Debug/netcoreapp2.0/DataAccessLayer.csproj.FileListAbsolute.txt" afterPath="$PROJECT_DIR$/DataAccessLayer/obj/Debug/netcoreapp2.0/DataAccessLayer.csproj.FileListAbsolute.txt" />
+      <change beforePath="$PROJECT_DIR$/DataAccessLayer/obj/Debug/netcoreapp2.0/DataAccessLayer.dll" afterPath="$PROJECT_DIR$/DataAccessLayer/obj/Debug/netcoreapp2.0/DataAccessLayer.dll" />
+      <change beforePath="$PROJECT_DIR$/DataAccessLayer/obj/Debug/netcoreapp2.0/DataAccessLayer.pdb" afterPath="$PROJECT_DIR$/DataAccessLayer/obj/Debug/netcoreapp2.0/DataAccessLayer.pdb" />
+      <change beforePath="$PROJECT_DIR$/ServerSideChating.sln" afterPath="$PROJECT_DIR$/ServerClientChat.sln" />
+      <change beforePath="$PROJECT_DIR$/WebApp/Controllers/ChatController.cs" afterPath="$PROJECT_DIR$/WebApp/Controllers/ChatController.cs" />
+      <change beforePath="$PROJECT_DIR$/WebApp/Controllers/HomeController.cs" afterPath="$PROJECT_DIR$/WebApp/Controllers/HomeController.cs" />
+      <change beforePath="$PROJECT_DIR$/WebApp/Models/ErrorViewModel.cs" afterPath="$PROJECT_DIR$/WebApp/Models/ErrorViewModel.cs" />
+      <change beforePath="$PROJECT_DIR$/WebApp/Program.cs" afterPath="$PROJECT_DIR$/WebApp/Program.cs" />
+      <change beforePath="$PROJECT_DIR$/WebApp/Startup.cs" afterPath="$PROJECT_DIR$/WebApp/Startup.cs" />
+      <change beforePath="$PROJECT_DIR$/WebApp/Views/Chat/Index.cshtml" afterPath="$PROJECT_DIR$/WebApp/Views/Chat/Index.cshtml" />
+      <change beforePath="$PROJECT_DIR$/WebApp/Views/Home/About.cshtml" afterPath="$PROJECT_DIR$/WebApp/Views/Home/About.cshtml" />
+      <change beforePath="$PROJECT_DIR$/WebApp/Views/Home/Contact.cshtml" afterPath="$PROJECT_DIR$/WebApp/Views/Home/Contact.cshtml" />
+      <change beforePath="$PROJECT_DIR$/WebApp/Views/Home/Index.cshtml" afterPath="$PROJECT_DIR$/WebApp/Views/Home/Index.cshtml" />
+      <change beforePath="$PROJECT_DIR$/WebApp/Views/Shared/Error.cshtml" afterPath="$PROJECT_DIR$/WebApp/Views/Shared/Error.cshtml" />
+      <change beforePath="$PROJECT_DIR$/WebApp/Views/Shared/_Layout.cshtml" afterPath="$PROJECT_DIR$/WebApp/Views/Shared/_Layout.cshtml" />
+      <change beforePath="$PROJECT_DIR$/WebApp/Views/Shared/_ValidationScriptsPartial.cshtml" afterPath="$PROJECT_DIR$/WebApp/Views/Shared/_ValidationScriptsPartial.cshtml" />
+      <change beforePath="$PROJECT_DIR$/WebApp/Views/_ViewImports.cshtml" afterPath="$PROJECT_DIR$/WebApp/Views/_ViewImports.cshtml" />
+      <change beforePath="$PROJECT_DIR$/WebApp/Views/_ViewStart.cshtml" afterPath="$PROJECT_DIR$/WebApp/Views/_ViewStart.cshtml" />
+      <change beforePath="$PROJECT_DIR$/WebApp/WebApp.csproj" afterPath="$PROJECT_DIR$/WebApp/WebApp.csproj" />
+      <change beforePath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp2.0/Business.dll" afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp2.0/Business.dll" />
+      <change beforePath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp2.0/Business.pdb" afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp2.0/Business.pdb" />
+      <change beforePath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp2.0/Common.dll" afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp2.0/Common.dll" />
+      <change beforePath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp2.0/Common.pdb" afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp2.0/Common.pdb" />
+      <change beforePath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp2.0/DataAccessLayer.dll" afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp2.0/DataAccessLayer.dll" />
+      <change beforePath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp2.0/DataAccessLayer.pdb" afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp2.0/DataAccessLayer.pdb" />
+      <change beforePath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp2.0/WebApp.dll" afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp2.0/WebApp.dll" />
+      <change beforePath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp2.0/WebApp.pdb" afterPath="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp2.0/WebApp.pdb" />
+      <change beforePath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp2.0/WebApp.AssemblyInfo.cs" afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp2.0/WebApp.AssemblyInfo.cs" />
+      <change beforePath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp2.0/WebApp.csproj.FileListAbsolute.txt" afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp2.0/WebApp.csproj.FileListAbsolute.txt" />
+      <change beforePath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp2.0/WebApp.dll" afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp2.0/WebApp.dll" />
+      <change beforePath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp2.0/WebApp.pdb" afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp2.0/WebApp.pdb" />
+      <change beforePath="$PROJECT_DIR$/WebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.js" afterPath="$PROJECT_DIR$/WebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.js" />
+      <change beforePath="$PROJECT_DIR$/WebApp/wwwroot/lib/bootstrap/dist/js/npm.js" afterPath="$PROJECT_DIR$/WebApp/wwwroot/lib/bootstrap/dist/js/npm.js" />
+      <change beforePath="$PROJECT_DIR$/WebApp/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js" afterPath="$PROJECT_DIR$/WebApp/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js" />
+      <change beforePath="$PROJECT_DIR$/WebApp/wwwroot/lib/jquery-validation/dist/jquery.validate.js" afterPath="$PROJECT_DIR$/WebApp/wwwroot/lib/jquery-validation/dist/jquery.validate.js" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>5000</find>
+      <find>ReadMessageAync</find>
+      <find>BuildWebHost</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Business/ServerSideSocketClasses/TCPListener.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ClientSideWebApp/Controllers/ChatController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Business/ServerSideSocketClasses/ClientSocket.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DataAccessLayer/PedramDbContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Business/ServerSideSocketClasses/SendingMessagesHandle.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Common/UsingModels/ReceiveMessage.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8FD7842C-6BAA-4645-AF1F-D41C841C8E17/4d/8be45598/LazyAsyncResult.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Business/SharedClasses/MessageHandle.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApp/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Business/ClientSideSocketClasses/SocketHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApp/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Business/ServerSideSocketClasses/SendingMessagesHandle.cs" />
+        <option value="$PROJECT_DIR$/DataAccessLayer/PedramDbContext.cs" />
+        <option value="$PROJECT_DIR$/Common/UsingModels/ReceiveMessage.cs" />
+        <option value="$PROJECT_DIR$/Business/ServerSideSocketClasses/TCPListener.cs" />
+        <option value="$PROJECT_DIR$/Business/SharedClasses/MessageTypesHandle.cs" />
+        <option value="$PROJECT_DIR$/ClientSideWebApp/Controllers/ChatController.cs" />
+        <option value="$PROJECT_DIR$/Business/ServerSideSocketClasses/ClientSocket.cs" />
+        <option value="$PROJECT_DIR$/WebApp/Program.cs" />
+        <option value="$PROJECT_DIR$/Business/ClientSideSocketClasses/SocketHandler.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1280" />
+    <option name="height" value="800" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="ServerClientChat (5 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="ServerClientChat (5 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="WebApp" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="full.screen.before.presentation.mode" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected=".NET Project.ClientSideWebApp">
+    <configuration name="WebApp" type="DotNetProject" factoryName=".NET Project" temporary="true">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/WebApp/bin/Debug/netcoreapp2.0/WebApp.dll" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/WebApp" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <envs />
+      <option name="USE_MONO" value="0" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/WebApp/WebApp.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v2.0" />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue=".NET Project.ClientSideWebApp" />
+      <item index="1" class="java.lang.String" itemvalue=".NET Project.WebApp" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue=".NET Project.WebApp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d3737af1-09ef-4262-be68-78f71454348b" name="Default" comment="" />
+      <created>1523639361974</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1523639361974</updated>
+      <workItem from="1523639365885" duration="645000" />
+      <workItem from="1523640023496" duration="4033000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="4678000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25285482" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32763532" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3988604" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25285482" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32763532" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3988604" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Business/ClientSideSocketClasses/SocketHandler.cs</url>
+          <line>59</line>
+          <properties documentPath="$PROJECT_DIR$/Business/ClientSideSocketClasses/SocketHandler.cs" initialLine="61">
+            <startOffsets>
+              <startOffset value="1650" />
+            </startOffsets>
+            <endOffsets>
+              <endOffset value="1775" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Business/ClientSideSocketClasses/SocketHandler.cs</url>
+          <line>68</line>
+          <properties documentPath="$PROJECT_DIR$/Business/ClientSideSocketClasses/SocketHandler.cs" initialLine="70">
+            <startOffsets>
+              <startOffset value="1968" />
+            </startOffsets>
+            <endOffsets>
+              <endOffset value="2004" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Business/ClientSideSocketClasses/SocketHandler.cs</url>
+          <line>86</line>
+          <properties documentPath="$PROJECT_DIR$/Business/ClientSideSocketClasses/SocketHandler.cs" initialLine="88">
+            <startOffsets>
+              <startOffset value="2471" />
+            </startOffsets>
+            <endOffsets>
+              <endOffset value="2505" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Business/ClientSideSocketClasses/SocketHandler.cs</url>
+          <line>111</line>
+          <properties documentPath="$PROJECT_DIR$/Business/ClientSideSocketClasses/SocketHandler.cs" initialLine="113">
+            <startOffsets>
+              <startOffset value="3301" />
+            </startOffsets>
+            <endOffsets>
+              <endOffset value="3372" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Business/ServerSideSocketClasses/TCPListener.cs</url>
+          <line>50</line>
+          <properties documentPath="$PROJECT_DIR$/Business/ServerSideSocketClasses/TCPListener.cs" initialLine="50">
+            <startOffsets>
+              <startOffset value="1222" />
+            </startOffsets>
+            <endOffsets>
+              <endOffset value="1265" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/ClientSideWebApp/Controllers/ChatController.cs</url>
+          <line>19</line>
+          <properties documentPath="$PROJECT_DIR$/ClientSideWebApp/Controllers/ChatController.cs" initialLine="19">
+            <startOffsets>
+              <startOffset value="495" />
+            </startOffsets>
+            <endOffsets>
+              <endOffset value="525" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/ClientSideWebApp/Controllers/ChatController.cs</url>
+          <line>20</line>
+          <properties documentPath="$PROJECT_DIR$/ClientSideWebApp/Controllers/ChatController.cs" initialLine="20">
+            <startOffsets>
+              <startOffset value="538" />
+            </startOffsets>
+            <endOffsets>
+              <endOffset value="566" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/ClientSideWebApp/Controllers/ChatController.cs</url>
+          <line>18</line>
+          <properties documentPath="$PROJECT_DIR$/ClientSideWebApp/Controllers/ChatController.cs" initialLine="18">
+            <startOffsets>
+              <startOffset value="464" />
+            </startOffsets>
+            <endOffsets>
+              <endOffset value="482" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Business/ServerSideSocketClasses/ClientSocket.cs</url>
+          <line>88</line>
+          <properties documentPath="$PROJECT_DIR$/Business/ServerSideSocketClasses/ClientSocket.cs" initialLine="88">
+            <startOffsets>
+              <startOffset value="2359" />
+            </startOffsets>
+            <endOffsets>
+              <endOffset value="2434" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="18" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/DataAccessLayer/PedramDbContext.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding>
+            <marker date="1523639912976" expanded="true" signature="6:56" ph="..." />
+            <marker date="1523639912976" expanded="true" signature="130:552" ph="{...}" />
+            <marker date="1523639912976" expanded="true" signature="209:229" ph="{...}" />
+            <marker date="1523639912976" expanded="true" signature="369:546" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Common/UsingModels/ReceiveMessage.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="20" lean-forward="false" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+          <folding>
+            <marker date="1523640255873" expanded="true" signature="28:246" ph="{...}" />
+            <marker date="1523640255873" expanded="true" signature="62:244" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Business/SharedClasses/MessageHandle.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-184">
+          <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <marker date="1523641436766" expanded="false" signature="6:58" ph="..." />
+            <marker date="1523641436766" expanded="true" signature="92:1349" ph="{...}" />
+            <marker date="1523641436766" expanded="true" signature="132:1347" ph="{...}" />
+            <marker date="1523641436766" expanded="true" signature="221:507" ph="{...}" />
+            <marker date="1523641436766" expanded="true" signature="247:324" ph="{...}" />
+            <marker date="1523641436766" expanded="true" signature="356:497" ph="{...}" />
+            <marker date="1523641436766" expanded="true" signature="589:885" ph="{...}" />
+            <marker date="1523641436766" expanded="true" signature="615:702" ph="{...}" />
+            <marker date="1523641436766" expanded="true" signature="734:875" ph="{...}" />
+            <marker date="1523641436766" expanded="true" signature="936:981" ph="{...}" />
+            <marker date="1523641436766" expanded="true" signature="1032:1077" ph="{...}" />
+            <marker date="1523641436766" expanded="true" signature="1158:1340" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Business/Business.csproj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebApp/appsettings.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebApp/bundleconfig.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClientSideWebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="336" column="14" lean-forward="false" selection-start-line="336" selection-start-column="14" selection-end-line="336" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Business/ServerSideSocketClasses/SendingMessagesHandle.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="15" column="33" lean-forward="false" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+          <folding>
+            <marker date="1523639878802" expanded="true" signature="6:95" ph="..." />
+            <marker date="1523639878802" expanded="true" signature="139:1413" ph="{...}" />
+            <marker date="1523639878802" expanded="true" signature="205:1411" ph="{...}" />
+            <marker date="1523639878802" expanded="true" signature="251:1189" ph="{...}" />
+            <marker date="1523639878802" expanded="true" signature="286:1179" ph="{...}" />
+            <marker date="1523639878802" expanded="true" signature="368:474" ph="{...}" />
+            <marker date="1523639878802" expanded="true" signature="714:903" ph="{...}" />
+            <marker date="1523639878802" expanded="true" signature="924:1165" ph="{...}" />
+            <marker date="1523639878802" expanded="true" signature="1245:1405" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebApp/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="38" column="5" lean-forward="false" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+          <folding>
+            <marker date="1523645627556" expanded="true" signature="6:154" ph="..." />
+            <marker date="1523645627556" expanded="true" signature="172:1038" ph="{...}" />
+            <marker date="1523645627556" expanded="true" signature="199:1036" ph="{...}" />
+            <marker date="1523645627556" expanded="true" signature="333:682" ph="{...}" />
+            <marker date="1523645627556" expanded="true" signature="726:797" ph="{...}" />
+            <marker date="1523645627556" expanded="true" signature="858:1030" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Business/ServerSideSocketClasses/ClientSocket.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="48" column="26" lean-forward="true" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
+          <folding>
+            <marker date="1523644712230" expanded="false" signature="6:134" ph="..." />
+            <marker date="1523644712230" expanded="true" signature="178:2977" ph="{...}" />
+            <marker date="1523644712230" expanded="true" signature="210:2975" ph="{...}" />
+            <marker date="1523644712230" expanded="true" signature="225:599" ph="Properties" />
+            <marker date="1523644712230" expanded="true" signature="627:868" ph="CTOR" />
+            <marker date="1523644712230" expanded="true" signature="702:848" ph="{...}" />
+            <marker date="1523644712230" expanded="true" signature="904:1066" ph="{...}" />
+            <marker date="1523644712230" expanded="true" signature="1101:1384" ph="{...}" />
+            <marker date="1523644712230" expanded="true" signature="1127:1203" ph="{...}" />
+            <marker date="1523644712230" expanded="true" signature="1235:1374" ph="{...}" />
+            <marker date="1523644712230" expanded="true" signature="1434:2090" ph="{...}" />
+            <marker date="1523644712230" expanded="true" signature="1460:1775" ph="{...}" />
+            <marker date="1523644712230" expanded="true" signature="1663:1760" ph="{...}" />
+            <marker date="1523644712230" expanded="true" signature="1807:2080" ph="{...}" />
+            <marker date="1523644712230" expanded="true" signature="1955:2065" ph="{...}" />
+            <marker date="1523644712230" expanded="true" signature="2145:2889" ph="{...}" />
+            <marker date="1523644712230" expanded="true" signature="2218:2674" ph="{...}" />
+            <marker date="1523644712230" expanded="true" signature="2320:2660" ph="{...}" />
+            <marker date="1523644712230" expanded="true" signature="2706:2815" ph="{...}" />
+            <marker date="1523644712230" expanded="true" signature="2905:2969" ph="Private Methods" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8FD7842C-6BAA-4645-AF1F-D41C841C8E17/4d/8be45598/LazyAsyncResult.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="254" column="10" lean-forward="false" selection-start-line="254" selection-start-column="10" selection-end-line="254" selection-end-column="10" />
+          <folding>
+            <marker date="1523519538841" expanded="true" signature="0:324" ph="/* Decompiled with JetBrains decompiler ... */" />
+            <marker date="1523519538841" expanded="false" signature="332:418" ph="..." />
+            <marker date="1523519538841" expanded="true" signature="440:9256" ph="{...}" />
+            <marker date="1523519538841" expanded="true" signature="490:9254" ph="{...}" />
+            <marker date="1523519538841" expanded="true" signature="929:1261" ph="{...}" />
+            <marker date="1523519538841" expanded="true" signature="945:1255" ph="{...}" />
+            <marker date="1523519538841" expanded="true" signature="1075:1217" ph="{...}" />
+            <marker date="1523519538841" expanded="true" signature="1350:1646" ph="{...}" />
+            <marker date="1523519538841" expanded="true" signature="1679:1751" ph="{...}" />
+            <marker date="1523519538841" expanded="true" signature="1695:1745" ph="{...}" />
+            <marker date="1523519538841" expanded="true" signature="1781:1852" ph="{...}" />
+            <marker date="1523519538841" expanded="true" signature="1797:1846" ph="{...}" />
+            <marker date="1523519538841" expanded="true" signature="1895:2032" ph="{...}" />
+            <marker date="1523519538841" expanded="true" signature="1911:1963" ph="{...}" />
+            <marker date="1523519538841" expanded="true" signature="1973:2026" ph="{...}" />
+            <marker date="1523519538841" expanded="true" signature="2071:2721" ph="{...}" />
+            <marker date="1523519538841" expanded="true" signature="2087:2715" ph="{...}" />
+            <marker date="1523519538841" expanded="true" signature="2790:3342" ph="{...}" />
+            <marker date="1523519538841" expanded="true" signature="2854:3192" ph="{...}" />
+            <marker date="1523519538841" expanded="true" signature="2964:3079" ph="{...}" />
+            <marker date="1523519538841" expanded="true" signature="3211:3336" ph="{...}" />
+            <marker date="1523519538841" expanded="true" signature="3382:3871" ph="{...}" />
+            <marker date="1523519538841" expanded="true" signature="3398:3865" ph="{...}" />
+            <marker date="1523519538841" expanded="true" signature="3900:4266" ph="{...}" />
+            <marker date="1523519538841" expanded="true" signature="3916:4260" ph="{...}" />
+            <marker date="1523519538841" expanded="true" signature="4307:4409" ph="{...}" />
+            <marker date="1523519538841" expanded="true" signature="4323:4403" ph="{...}" />
+            <marker date="1523519538841" expanded="true" signature="4437:4578" ph="{...}" />
+            <marker date="1523519538841" expanded="true" signature="4453:4572" ph="{...}" />
+            <marker date="1523519538841" expanded="true" signature="4607:4736" ph="{...}" />
+            <marker date="1523519538841" expanded="true" signature="4623:4671" ph="{...}" />
+            <marker date="1523519538841" expanded="true" signature="4681:4730" ph="{...}" />
+            <marker date="1523519538841" expanded="true" signature="4764:4893" ph="{...}" />
+            <marker date="1523519538841" expanded="true" signature="4780:4828" ph="{...}" />
+            <marker date="1523519538841" expanded="true" signature="4838:4887" ph="{...}" />
+            <marker date="1523519538841" expanded="true" signature="4970:5714" ph="{...}" />
+            <marker date="1523519538841" expanded="true" signature="5531:5676" ph="{...}" />
+            <marker date="1523519538841" expanded="true" signature="5551:5605" ph="{...}" />
+            <marker date="1523519538841" expanded="true" signature="5648:5668" ph="{...}" />
+            <marker date="1523519538841" expanded="true" signature="5763:5832" ph="{...}" />
+            <marker date="1523519538841" expanded="true" signature="5868:5944" ph="{...}" />
+            <marker date="1523519538841" expanded="true" signature="5999:7403" ph="{...}" />
+            <marker date="1523519538841" expanded="true" signature="6137:7275" ph="{...}" />
+            <marker date="1523519538841" expanded="true" signature="6233:7074" ph="{...}" />
+            <marker date="1523519538841" expanded="true" signature="6437:6995" ph="{...}" />
+            <marker date="1523519538841" expanded="true" signature="7087:7267" ph="{...}" />
+            <marker date="1523519538841" expanded="true" signature="7289:7397" ph="{...}" />
+            <marker date="1523519538841" expanded="true" signature="7463:7703" ph="{...}" />
+            <marker date="1523519538841" expanded="true" signature="7544:7632" ph="{...}" />
+            <marker date="1523519538841" expanded="true" signature="7646:7697" ph="{...}" />
+            <marker date="1523519538841" expanded="true" signature="7741:7753" ph="{...}" />
+            <marker date="1523519538841" expanded="true" signature="7802:7857" ph="{...}" />
+            <marker date="1523519538841" expanded="true" signature="7906:9170" ph="{...}" />
+            <marker date="1523519538841" expanded="true" signature="8065:8223" ph="{...}" />
+            <marker date="1523519538841" expanded="true" signature="8253:8901" ph="{...}" />
+            <marker date="1523519538841" expanded="true" signature="8273:8533" ph="{...}" />
+            <marker date="1523519538841" expanded="true" signature="8576:8596" ph="{...}" />
+            <marker date="1523519538841" expanded="true" signature="8612:8893" ph="{...}" />
+            <marker date="1523519538841" expanded="true" signature="8662:8883" ph="{...}" />
+            <marker date="1523519538841" expanded="true" signature="9203:9250" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Business/ServerSideSocketClasses/TCPListener.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="56" column="8" lean-forward="false" selection-start-line="56" selection-start-column="8" selection-end-line="56" selection-end-column="8" />
+          <folding>
+            <marker date="1523640805660" expanded="false" signature="6:137" ph="..." />
+            <marker date="1523640805660" expanded="true" signature="181:1506" ph="{...}" />
+            <marker date="1523640805660" expanded="true" signature="227:1504" ph="{...}" />
+            <marker date="1523640805660" expanded="true" signature="260:401" ph="Properties" />
+            <marker date="1523640805660" expanded="true" signature="419:797" ph="CTOR" />
+            <marker date="1523640805660" expanded="true" signature="475:777" ph="{...}" />
+            <marker date="1523640805660" expanded="true" signature="834:934" ph="{...}" />
+            <marker date="1523640805660" expanded="true" signature="970:1074" ph="{...}" />
+            <marker date="1523640805660" expanded="true" signature="1136:1479" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ServerClientChat.sln">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClientSideWebApp/Controllers/ChatController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+          <folding>
+            <marker date="1523644661110" expanded="true" signature="6:90" ph="..." />
+            <marker date="1523644661110" expanded="true" signature="130:584" ph="{...}" />
+            <marker date="1523644661110" expanded="true" signature="177:582" ph="{...}" />
+            <marker date="1523644661110" expanded="true" signature="222:269" ph="{...}" />
+            <marker date="1523644661110" expanded="true" signature="373:576" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Business/ClientSideSocketClasses/SocketHandler.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="59" column="12" lean-forward="false" selection-start-line="59" selection-start-column="12" selection-end-line="59" selection-end-column="12" />
+          <folding>
+            <marker date="1523645938622" expanded="false" signature="6:152" ph="..." />
+            <marker date="1523645938622" expanded="true" signature="196:3907" ph="{...}" />
+            <marker date="1523645938622" expanded="true" signature="229:3905" ph="{...}" />
+            <marker date="1523645938622" expanded="true" signature="391:445" ph="{...}" />
+            <marker date="1523645938622" expanded="true" signature="713:1592" ph="{...}" />
+            <marker date="1523645938622" expanded="true" signature="784:1473" ph="{...}" />
+            <marker date="1523645938622" expanded="true" signature="815:961" ph="/* Establish the remote endpoint for the socket. ... */" />
+            <marker date="1523645938622" expanded="true" signature="1505:1582" ph="{...}" />
+            <marker date="1523645938622" expanded="true" signature="1627:1785" ph="{...}" />
+            <marker date="1523645938622" expanded="true" signature="1847:2393" ph="{...}" />
+            <marker date="1523645938622" expanded="true" signature="1873:2274" ph="{...}" />
+            <marker date="1523645938622" expanded="true" signature="2306:2383" ph="{...}" />
+            <marker date="1523645938622" expanded="true" signature="2448:3194" ph="{...}" />
+            <marker date="1523645938622" expanded="true" signature="2521:2979" ph="{...}" />
+            <marker date="1523645938622" expanded="true" signature="2623:2965" ph="{...}" />
+            <marker date="1523645938622" expanded="true" signature="3011:3120" ph="{...}" />
+            <marker date="1523645938622" expanded="true" signature="3244:3899" ph="{...}" />
+            <marker date="1523645938622" expanded="true" signature="3270:3584" ph="{...}" />
+            <marker date="1523645938622" expanded="true" signature="3472:3569" ph="{...}" />
+            <marker date="1523645938622" expanded="true" signature="3616:3889" ph="{...}" />
+            <marker date="1523645938622" expanded="true" signature="3764:3874" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebApp/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1523639872517" expanded="false" signature="6:161" ph="..." />
+            <marker date="1523639872517" expanded="true" signature="179:1203" ph="{...}" />
+            <marker date="1523639872517" expanded="true" signature="206:1201" ph="{...}" />
+            <marker date="1523639872517" expanded="true" signature="265:328" ph="{...}" />
+            <marker date="1523639872517" expanded="true" signature="551:602" ph="{...}" />
+            <marker date="1523639872517" expanded="true" signature="790:1195" ph="{...}" />
+            <marker date="1523639872517" expanded="true" signature="1028:1183" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebApp/appsettings.Development.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="25" lean-forward="false" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

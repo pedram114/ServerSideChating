@@ -1,0 +1,17 @@
+/Users/pedramgilaniniya/Documents/development/ServerSideChating/ServerSideChating/WebApplication/bin/Debug/netcoreapp2.0/WebApplication.deps.json
+/Users/pedramgilaniniya/Documents/development/ServerSideChating/ServerSideChating/WebApplication/bin/Debug/netcoreapp2.0/WebApplication.runtimeconfig.json
+/Users/pedramgilaniniya/Documents/development/ServerSideChating/ServerSideChating/WebApplication/bin/Debug/netcoreapp2.0/WebApplication.runtimeconfig.dev.json
+/Users/pedramgilaniniya/Documents/development/ServerSideChating/ServerSideChating/WebApplication/bin/Debug/netcoreapp2.0/WebApplication.dll
+/Users/pedramgilaniniya/Documents/development/ServerSideChating/ServerSideChating/WebApplication/bin/Debug/netcoreapp2.0/WebApplication.pdb
+/Users/pedramgilaniniya/Documents/development/ServerSideChating/ServerSideChating/WebApplication/obj/Debug/netcoreapp2.0/WebApplication.csproj.CoreCompileInputs.cache
+/Users/pedramgilaniniya/Documents/development/ServerSideChating/ServerSideChating/WebApplication/obj/Debug/netcoreapp2.0/WebApplication.AssemblyInfoInputs.cache
+/Users/pedramgilaniniya/Documents/development/ServerSideChating/ServerSideChating/WebApplication/obj/Debug/netcoreapp2.0/WebApplication.AssemblyInfo.cs
+/Users/pedramgilaniniya/Documents/development/ServerSideChating/ServerSideChating/WebApplication/obj/Debug/netcoreapp2.0/WebApplication.dll
+/Users/pedramgilaniniya/Documents/development/ServerSideChating/ServerSideChating/WebApplication/obj/Debug/netcoreapp2.0/WebApplication.pdb
+/Users/pedramgilaniniya/Documents/development/ServerSideChating/ServerSideChating/WebApplication/bin/Debug/netcoreapp2.0/Common.dll
+/Users/pedramgilaniniya/Documents/development/ServerSideChating/ServerSideChating/WebApplication/bin/Debug/netcoreapp2.0/DataAccessLayer.dll
+/Users/pedramgilaniniya/Documents/development/ServerSideChating/ServerSideChating/WebApplication/bin/Debug/netcoreapp2.0/DataAccessLayer.pdb
+/Users/pedramgilaniniya/Documents/development/ServerSideChating/ServerSideChating/WebApplication/bin/Debug/netcoreapp2.0/Common.pdb
+/Users/pedramgilaniniya/Documents/development/ServerSideChating/ServerSideChating/WebApplication/obj/Debug/netcoreapp2.0/WebApplication.csproj.CopyComplete
+/Users/pedramgilaniniya/Documents/development/ServerSideChating/ServerSideChating/WebApplication/bin/Debug/netcoreapp2.0/Business.dll
+/Users/pedramgilaniniya/Documents/development/ServerSideChating/ServerSideChating/WebApplication/bin/Debug/netcoreapp2.0/Business.pdb

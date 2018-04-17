@@ -1,0 +1,75 @@
+﻿@using Microsoft.AspNetCore.Antiforgery
+@using Microsoft.AspNetCore.Antiforgery.Internal
+
+@{
+  ViewBag.Title = "";
+  Layout = "_Layout";
+}
+
+
+<div>
+  <div>
+    <label >UserName</label>
+    <input type="text" name="username" id="username"/>
+  </div>
+  <div>
+    <label >Phone Number</label>
+    <input type="tel" name="mobileNumber" id="mobileNumber"/>
+  </div>
+  <div>
+    <label >Email</label>
+    <input type="email" name="email" id="email"/>
+  </div>
+
+  <div>
+    <label>Password</label>
+    <input type="password" name="password" id="password"/>
+  </div>
+
+  <div>
+    <label>Retype password</label>
+    <input type="password" name="confirmPassword" id="confirmPassword"/>
+  </div>
+
+  <div class="btn btn-primary" onclick="submit()"/>
+</div>
+
+<div asp-validation-summary="All"></div>
+
+
+<script>
+
+  function submit() {
+    var data = {
+      'UserName': $('#username').val(),
+      'Password': $('#password').val(),
+      'ConfirmPassword': $('#confirmPassword').val(),
+      'Email': $('#email').val(),
+      'MobileNumber': $('#mobileNumber').val()
+    };
+    debugger;
+    var newuser = '{newuser: ' +  JSON.stringify(data) + '}';
+    $.ajax({
+      type: "POST",
+      url: "/api/account/",
+      data:  newuser ,
+      contentType: "application/json; charset=utf-8",
+      dataType: "json",
+      success: function (response) {
+        debugger;
+        alert("Hello: " + response.Name + ".\nCurrent Date and Time: " + response.DateTime);
+      },
+      failure: function (response) {
+        debugger;
+        alert(response.responseText);
+      },
+      error: function (response) {
+        debugger;
+        alert(response.responseText);
+      }
+    });
+  }
+  
+ 
+  
+</script>
