@@ -6,6 +6,6 @@ namespace Common.Model
     {
         public Guid Id { get; set; }
         public int CId { get; set; }
-        public bool IsConnected { get; set; }   
+        public bool IsConnected { get; set; }
     }
 }
