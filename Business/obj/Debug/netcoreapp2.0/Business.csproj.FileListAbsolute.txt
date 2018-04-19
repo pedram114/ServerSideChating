@@ -10,3 +10,5 @@
 /Users/pedramgilaniniya/Documents/development/ServerSideChating/ServerSideChating/Business/obj/Debug/netcoreapp2.0/Business.dll
 /Users/pedramgilaniniya/Documents/development/ServerSideChating/ServerSideChating/Business/obj/Debug/netcoreapp2.0/Business.pdb
 /Users/pedramgilaniniya/Documents/development/ServerSideChating/ServerSideChating/Business/obj/Debug/netcoreapp2.0/Business.csproj.CopyComplete
+/Users/pedramgilaniniya/Documents/development/ServerSideChating/ServerSideChating/Business/bin/Debug/netcoreapp2.0/DataAccessLayer.dll
+/Users/pedramgilaniniya/Documents/development/ServerSideChating/ServerSideChating/Business/bin/Debug/netcoreapp2.0/DataAccessLayer.pdb

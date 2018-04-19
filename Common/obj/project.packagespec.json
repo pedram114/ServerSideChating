@@ -26,6 +26,30 @@
   "frameworks": {
     "netstandard2.0": {
       "dependencies": {
+        "Microsoft.AspNetCore": {
+          "target": "Package",
+          "version": "[2.1.0-preview1-final, )"
+        },
+        "Microsoft.EntityFrameworkCore": {
+          "target": "Package",
+          "version": "[2.1.0-preview1-final, )"
+        },
+        "Microsoft.EntityFrameworkCore.Design": {
+          "target": "Package",
+          "version": "[2.1.0-preview1-final, )"
+        },
+        "Microsoft.EntityFrameworkCore.SqlServer": {
+          "target": "Package",
+          "version": "[2.1.0-preview1-final, )"
+        },
+        "Microsoft.EntityFrameworkCore.SqlServer.Design": {
+          "target": "Package",
+          "version": "[2.0.0-preview1-final, )"
+        },
+        "Microsoft.Extensions.Identity.Stores": {
+          "target": "Package",
+          "version": "[2.1.0-preview1-final, )"
+        },
         "NETStandard.Library": {
           "suppressParent": "All",
           "target": "Package",

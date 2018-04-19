@@ -1,83 +1,73 @@
 ﻿using System.Collections.Generic;
 using Business.Interfaces;
+using Common.Model;
 using Common.ViewModels;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
 namespace WebApplication.APIs.Account
 {
-    [Route("api/account/")]
-    public class AccountController : Controller
+    [Route("api/account/register")]
+    public class RegisterController : Controller
     {
 
-        private readonly UserManager<IdentityUser> _userManager;
-        private readonly SignInManager<IdentityUser> _signInManager;
+        private readonly UserManager<ApplicationUser> _userManager;
+        private readonly SignInManager<ApplicationUser> _signInManager;
         private readonly IMessageService _messageService;
 
-        public AccountController(UserManager<IdentityUser> userManager, 
-            SignInManager<IdentityUser> signInManager, IMessageService messageService)
+        public RegisterController(UserManager<ApplicationUser> userManager, 
+            SignInManager<ApplicationUser> signInManager, IMessageService messageService)
         {
             this._userManager = userManager;
             this._signInManager = signInManager;
             this._messageService = messageService;
         }
-        // GET api/values
-        [HttpGet]
-        public IEnumerable<string> Get()
-        {
-            return new string[] {"value1", "value2"};
-        }
-
-        // GET api/values/5
-        [HttpGet("{id}")]
-        public string Get(int id)
-        {
-            return "value";
-        }
-
+       
         // POST api/values
         [HttpPost]
-        public JsonResult Post([FromBody] RegisterUserVM newuser)
+        public JsonResult Post([FromBody]RegisterUserVM newuser)
         {
-            
+            var response = new ApiResponse();
+
             if (newuser.Password != newuser.ConfirmPassword)
             {
-                ModelState.AddModelError(string.Empty, "Password don't match");
-                return new JsonResult("");
+                response.IsSucced = false;                
+                response.Errors.Add("Password don't match");
+                return new JsonResult(response);
+
             }
 
-            var newUser = new IdentityUser 
+            var newUser = new ApplicationUser 
             {
-                UserName = newuser.UserName,
+                UserName = newuser.Email,
                 Email = newuser.Email
             };
 
             var userCreationResult = _userManager.CreateAsync(newUser, newuser.Password);
-            if (!userCreationResult.Result.Succeeded)
+            response.IsSucced = userCreationResult.Result.Succeeded;
+            if (userCreationResult.Result.Succeeded)
             {
-                foreach(var error in userCreationResult.Result.Errors)
-                    ModelState.AddModelError(string.Empty, error.Description);
-                return new JsonResult("");
-            }
+                response.Redirect.Redirected = true;
+                response.Redirect.RedirectLink = "/Home/Index";
+                return new JsonResult(response);
 
-           // var emailConfirmationToken =  _userManager.GenerateEmailConfirmationTokenAsync(newUser);
+            }
+            else
+            {
+
+                foreach (var error in userCreationResult.Result.Errors)
+                    response.Errors.Add(error.Description); 
+                return new JsonResult(response);
+
+            }
+           
+            // var emailConfirmationToken =  _userManager.GenerateEmailConfirmationTokenAsync(newUser);
            // var tokenVerificationUrl = Url.Action("VerifyEmail", "Account", new {id = newUser.Id, token = emailConfirmationToken}, Request.Scheme);
 
           //  _messageService.Send(model.Email, "Verify your email", $"Click <a href=\"{tokenVerificationUrl}\">here</a> to verify your email");
 
-            return new JsonResult("");
         }
 
-        // PUT api/values/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
-        {
-        }
-
-        // DELETE api/values/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
-        }
+        
     }
 }

@@ -529,7 +529,7 @@
           "lib/netstandard2.0/Microsoft.AspNetCore.Cors.dll": {}
         }
       },
-      "Microsoft.AspNetCore.Cryptography.Internal/2.0.2": {
+      "Microsoft.AspNetCore.Cryptography.Internal/2.1.0-preview1-final": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Microsoft.AspNetCore.Cryptography.Internal.dll": {}
@@ -538,10 +538,10 @@
           "lib/netstandard2.0/Microsoft.AspNetCore.Cryptography.Internal.dll": {}
         }
       },
-      "Microsoft.AspNetCore.Cryptography.KeyDerivation/2.0.2": {
+      "Microsoft.AspNetCore.Cryptography.KeyDerivation/2.1.0-preview1-final": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNetCore.Cryptography.Internal": "2.0.2"
+          "Microsoft.AspNetCore.Cryptography.Internal": "2.1.0-preview1-final"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll": {}
@@ -2159,13 +2159,13 @@
           "lib/netstandard2.0/Microsoft.Extensions.Hosting.Abstractions.dll": {}
         }
       },
-      "Microsoft.Extensions.Identity.Core/2.0.2": {
+      "Microsoft.Extensions.Identity.Core/2.1.0-preview1-final": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNetCore.Cryptography.KeyDerivation": "2.0.2",
-          "Microsoft.Extensions.Logging": "2.0.1",
-          "Microsoft.Extensions.Options": "2.0.1",
-          "System.ComponentModel.Annotations": "4.4.0"
+          "Microsoft.AspNetCore.Cryptography.KeyDerivation": "2.1.0-preview1-final",
+          "Microsoft.Extensions.Logging": "2.1.0-preview1-final",
+          "Microsoft.Extensions.Options": "2.1.0-preview1-final",
+          "System.ComponentModel.Annotations": "4.5.0-preview1-26216-02"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.Identity.Core.dll": {}
@@ -2174,12 +2174,12 @@
           "lib/netstandard2.0/Microsoft.Extensions.Identity.Core.dll": {}
         }
       },
-      "Microsoft.Extensions.Identity.Stores/2.0.2": {
+      "Microsoft.Extensions.Identity.Stores/2.1.0-preview1-final": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Identity.Core": "2.0.2",
-          "Microsoft.Extensions.Logging": "2.0.1",
-          "System.ComponentModel.Annotations": "4.4.0"
+          "Microsoft.Extensions.Identity.Core": "2.1.0-preview1-final",
+          "Microsoft.Extensions.Logging": "2.1.0-preview1-final",
+          "System.ComponentModel.Annotations": "4.5.0-preview1-26216-02"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.Identity.Stores.dll": {}
@@ -4908,6 +4908,14 @@
       "Common/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Microsoft.AspNetCore": "2.1.0-preview1-final",
+          "Microsoft.EntityFrameworkCore": "2.1.0-preview1-final",
+          "Microsoft.EntityFrameworkCore.Design": "2.1.0-preview1-final",
+          "Microsoft.EntityFrameworkCore.SqlServer": "2.1.0-preview1-final",
+          "Microsoft.EntityFrameworkCore.SqlServer.Design": "2.0.0-preview1-final",
+          "Microsoft.Extensions.Identity.Stores": "2.1.0-preview1-final"
+        },
         "compile": {
           "bin/placeholder/Common.dll": {}
         },
@@ -5231,25 +5239,25 @@
         "microsoft.aspnetcore.cors.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Cryptography.Internal/2.0.2": {
-      "sha512": "pCJyY7vC6YWY94ssKcgGzVFGsK/bk7RVEH/BxwHmc+T3t5VmXlBq7VvUmhLfk+P5Uc1l0hDIJX0ZJRLy9Sz1jg==",
+    "Microsoft.AspNetCore.Cryptography.Internal/2.1.0-preview1-final": {
+      "sha512": "wSevyqMiNJSUY/YWiZna+NVpAttQh0xuCz+RE4KOV/UAJ11WO5e+wbz7ThWQjqAH0+BqiInd3Ljna4ASo+cflw==",
       "type": "package",
-      "path": "microsoft.aspnetcore.cryptography.internal/2.0.2",
+      "path": "microsoft.aspnetcore.cryptography.internal/2.1.0-preview1-final",
       "files": [
         "lib/netstandard2.0/Microsoft.AspNetCore.Cryptography.Internal.dll",
         "lib/netstandard2.0/Microsoft.AspNetCore.Cryptography.Internal.xml",
-        "microsoft.aspnetcore.cryptography.internal.2.0.2.nupkg.sha512",
+        "microsoft.aspnetcore.cryptography.internal.2.1.0-preview1-final.nupkg.sha512",
         "microsoft.aspnetcore.cryptography.internal.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Cryptography.KeyDerivation/2.0.2": {
-      "sha512": "JblI3dWCRga40Y6PFUNsdGMAgmMu7Igb9sAtcG3nY8O2tvfuqwkpzGao8KE081KBndGGBcLUD4iWDkoMoGOQVQ==",
+    "Microsoft.AspNetCore.Cryptography.KeyDerivation/2.1.0-preview1-final": {
+      "sha512": "wqqDL6WRYaThYuPYkU5EBSUznddctDHsgHraAMdZj+WMOLsWjH/xyeW5MG07V0Q5rFB5PVvwn84xLKyiReaVyA==",
       "type": "package",
-      "path": "microsoft.aspnetcore.cryptography.keyderivation/2.0.2",
+      "path": "microsoft.aspnetcore.cryptography.keyderivation/2.1.0-preview1-final",
       "files": [
         "lib/netstandard2.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll",
         "lib/netstandard2.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.xml",
-        "microsoft.aspnetcore.cryptography.keyderivation.2.0.2.nupkg.sha512",
+        "microsoft.aspnetcore.cryptography.keyderivation.2.1.0-preview1-final.nupkg.sha512",
         "microsoft.aspnetcore.cryptography.keyderivation.nuspec"
       ]
     },
@@ -6675,25 +6683,25 @@
         "microsoft.extensions.hosting.abstractions.nuspec"
       ]
     },
-    "Microsoft.Extensions.Identity.Core/2.0.2": {
-      "sha512": "Lx5bFoGV2q83SdNh6SrzZczngu/FQ8N/VegNxyEl8h+UwFQJrVj9S3Ukp5Xd1jdFaRT4Xus8P8aGBdy8V7Iwew==",
+    "Microsoft.Extensions.Identity.Core/2.1.0-preview1-final": {
+      "sha512": "w3i1Upl7B8fyzrNKuU3R088VRYlwXlUCI7mdn0c5mRvDMbKUzi6OFt/gtWzZyFoEjhAEi6rGMRS8JG45TZX5qw==",
       "type": "package",
-      "path": "microsoft.extensions.identity.core/2.0.2",
+      "path": "microsoft.extensions.identity.core/2.1.0-preview1-final",
       "files": [
         "lib/netstandard2.0/Microsoft.Extensions.Identity.Core.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Identity.Core.xml",
-        "microsoft.extensions.identity.core.2.0.2.nupkg.sha512",
+        "microsoft.extensions.identity.core.2.1.0-preview1-final.nupkg.sha512",
         "microsoft.extensions.identity.core.nuspec"
       ]
     },
-    "Microsoft.Extensions.Identity.Stores/2.0.2": {
-      "sha512": "9BTVdltrgFh+O69zm4fHZ50PV+GDEdGqcp+KMlbrOW+RmAgbVkQvMV25ZZChUAlT/uQb7BnAF1h5+2xWEyNQzA==",
+    "Microsoft.Extensions.Identity.Stores/2.1.0-preview1-final": {
+      "sha512": "oag4dO4GLU1l0syiuB8GWH5pCuW9On1+eUy7vC29uOxuUWdiMkJY27BfKBCtfhpDXBrEr3Pa+MKfQeEWzZD+iQ==",
       "type": "package",
-      "path": "microsoft.extensions.identity.stores/2.0.2",
+      "path": "microsoft.extensions.identity.stores/2.1.0-preview1-final",
       "files": [
         "lib/netstandard2.0/Microsoft.Extensions.Identity.Stores.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Identity.Stores.xml",
-        "microsoft.extensions.identity.stores.2.0.2.nupkg.sha512",
+        "microsoft.extensions.identity.stores.2.1.0-preview1-final.nupkg.sha512",
         "microsoft.extensions.identity.stores.nuspec"
       ]
     },

@@ -6,10 +6,15 @@ namespace WebApplication.Controllers
     {
         // GET
         [HttpGet]
-        public IActionResult Register()
+        public IActionResult LoginRegister()
         {
             return
             View();
+        }
+        
+        public IActionResult ForgotPassword()
+        {
+            return View();
         }
     }
 }

@@ -33,7 +33,15 @@
                     <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
                     <li><a asp-area="" asp-controller="Home" asp-action="About">About</a></li>
                     <li><a asp-area="" asp-controller="Home" asp-action="Contact">Contact</a></li>
-                    <li><a asp-area="" asp-controller="Account" asp-action="Register">Register</a></li>
+                    @if (!User.Identity.IsAuthenticated)
+                    {
+                        <li><a asp-area="" asp-controller="Account" asp-action="LoginRegister">Register</a></li>                        
+                    }
+                    else
+                    {
+                        <li><a asp-area="" asp-controller="Chat" asp-action="StartNewChat">Start Chat</a></li>
+                        <li><a asp-area="" onclick="logout()">Logout</a></li>                                  
+                    }
                 </ul>
             </div>
         </div>
@@ -66,7 +74,38 @@
         </script>
         <script src="~/js/site.min.js" asp-append-version="true"></script>
     </environment>
-
+<script>
+    function logout() {
+        $.ajax({
+            type: "GET",
+            url: "/api/account/logout/",
+            success: function(response) {
+                debugger;
+                if (response.isSucced) {
+                    if (response.redirect.redirected) {
+                        window.location.replace(response.redirect.redirectLink);
+                    } else {
+                        //Nothing to do
+                    }
+                } else {
+                    $('#showerrors').empty();
+                    for (var i = 0; i < response.errors.length; i++) {
+                        $('#showerrors').removeClass('hidden');
+                        $('#showerrors').append(response.errors[i] + '<br/>');
+                    }
+                }
+            },
+            failure: function(response) {
+                debugger;
+                alert(response.responseText);
+            },
+            error: function(response) {
+                debugger;
+                alert(response.responseText);
+            }
+        }); 
+    }
+</script>
     @RenderSection("Scripts", required: false)
 </body>
 </html>

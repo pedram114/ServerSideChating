@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Business.Interfaces;
 using Business.Services;
+using Common.Model;
 using DataAccessLayer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -31,10 +32,19 @@ namespace WebApplication
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"), 
                     optionsBuilder => optionsBuilder.MigrationsAssembly("AspNetIdentityFromScratch")));            
            
-            services.AddIdentity<IdentityUser, IdentityRole>()
+            services.AddIdentity<ApplicationUser, ApplicationRole>()
                 .AddEntityFrameworkStores<PedramDbContext>()
                 .AddDefaultTokenProviders();
             
+            
+            services.Configure<IdentityOptions>(options => {
+                options.Password.RequireDigit = true;
+                options.Password.RequiredLength = 6;
+                options.Password.RequireLowercase = false;
+                options.Password.RequireNonAlphanumeric = false;
+                options.Password.RequireUppercase = true;  
+                options.SignIn.RequireConfirmedEmail = false;                 
+            });
             
             services.AddTransient<IMessageService, MessageService>();
         }
@@ -54,7 +64,7 @@ namespace WebApplication
             }
 
             app.UseStaticFiles();
-            app.UseIdentity();
+            app.UseAuthentication();
             
             app.UseMvc(routes =>
             {

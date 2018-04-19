@@ -33,10 +33,13 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="Common.csproj" t="IncludeRecursive" />
         <e p="Enums" t="Include">
+          <e p="DBResponse.cs" t="Include" />
           <e p="ResponseStatus.cs" t="Include" />
         </e>
         <e p="Model" t="Include">
           <e p="Client.cs" t="Include" />
+          <e p="IdentityClasses.cs" t="Include" />
+          <e p="UserMessage.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
@@ -52,6 +55,7 @@
         </e>
         <e p="ViewModels" t="Include">
           <e p="ApiResponse.cs" t="Include" />
+          <e p="LoginUserVM.cs" t="Include" />
           <e p="RegisterUserVM.cs" t="Include" />
         </e>
       </e>
@@ -61,10 +65,8 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="DataAccessLayer.csproj" t="IncludeRecursive" />
         <e p="Migrations" t="Include">
-          <e p="20180411174543_InitialCreate.cs" t="Include" />
-          <e p="20180411174543_InitialCreate.Designer.cs" t="Include" />
-          <e p="20180415155250_InitialIdentity.cs" t="Include" />
-          <e p="20180415155250_InitialIdentity.Designer.cs" t="Include" />
+          <e p="20180419093626_InitialDB.cs" t="Include" />
+          <e p="20180419093626_InitialDB.Designer.cs" t="Include" />
           <e p="PedramDbContextModelSnapshot.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
@@ -76,6 +78,10 @@
         </e>
         <e p="PedramDbContext.cs" t="Include" />
         <e p="Program.cs" t="Include" />
+        <e p="Repositories" t="Include">
+          <e p="ApplicationUserRep.cs" t="Include" />
+          <e p="UserMessageRep.cs" t="Include" />
+        </e>
         <e p="Startup.cs" t="Include" />
       </e>
       <e p="packages" t="ExcludeRecursive" />
@@ -83,6 +89,8 @@
       <e p="WebApplication" t="IncludeRecursive">
         <e p="APIs" t="Include">
           <e p="Account" t="Include">
+            <e p="LoginController.cs" t="Include" />
+            <e p="LogoutController.cs" t="Include" />
             <e p="RegisterController.cs" t="Include" />
           </e>
         </e>
@@ -93,6 +101,7 @@
         <e p="bundleconfig.json" t="Include" />
         <e p="Controllers" t="Include">
           <e p="AccountController.cs" t="Include" />
+          <e p="ChatController.cs" t="Include" />
           <e p="HomeController.cs" t="Include" />
         </e>
         <e p="Models" t="Include">
@@ -111,7 +120,11 @@
           <e p="_ViewImports.cshtml" t="Include" />
           <e p="_ViewStart.cshtml" t="Include" />
           <e p="Account" t="Include">
-            <e p="Register.cshtml" t="Include" />
+            <e p="ForgotPassword.cshtml" t="Include" />
+            <e p="LoginRegister.cshtml" t="Include" />
+          </e>
+          <e p="Chat" t="Include">
+            <e p="startnewchat.cshtml" t="Include" />
           </e>
           <e p="Home" t="Include">
             <e p="About.cshtml" t="Include" />
@@ -127,6 +140,8 @@
         <e p="WebApplication.csproj" t="IncludeRecursive" />
         <e p="wwwroot" t="Include">
           <e p="css" t="Include">
+            <e p="chatpage.css" t="Include" />
+            <e p="LoginRegisterForm.css" t="Include" />
             <e p="site.css" t="Include" />
             <e p="site.min.css" t="Include" />
           </e>

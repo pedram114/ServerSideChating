@@ -17,6 +17,9 @@
         "projectReferences": {
           "/Users/pedramgilaniniya/Documents/development/ServerSideChating/ServerSideChating/Common/Common.csproj": {
             "projectPath": "/Users/pedramgilaniniya/Documents/development/ServerSideChating/ServerSideChating/Common/Common.csproj"
+          },
+          "/Users/pedramgilaniniya/Documents/development/ServerSideChating/ServerSideChating/DataAccessLayer/DataAccessLayer.csproj": {
+            "projectPath": "/Users/pedramgilaniniya/Documents/development/ServerSideChating/ServerSideChating/DataAccessLayer/DataAccessLayer.csproj"
           }
         }
       }
