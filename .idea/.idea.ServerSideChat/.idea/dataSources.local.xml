@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="@localhost" uuid="00f75b41-11ee-44ca-8386-f47e11a3b9d9">
+      <database-info product="Microsoft SQL Server" version="14.00.3022" jdbc-version="4.2" driver-name="Microsoft JDBC Driver 6.0 for SQL Server" driver-version="6.0.8112.100">
+        <extra-name-characters>$#@</extra-name-characters>
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
+      <user-name>sa</user-name>
+      <introspection-schemas>ChatDB:</introspection-schemas>
+    </data-source>
+  </component>
+</project>

@@ -8,17 +8,19 @@ namespace DataAccessLayer
     {
         public PedramDbContext(DbContextOptions options) : base(options)
         {
+            
         }
-        public DbSet<Client> clients { set; get; }
-        public DbSet<UserMessage> userMessages { set; get; }
+        public DbSet<Client> Clients { set; get; }
+        public DbSet<UserMessage> UserMessages { set; get; }
         public DbSet<ApplicationUser> AspNetUsers { set; get; }
+        public DbSet<MessageReceipter> MessageReceipters { set; get; }
    
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             // optionsBuilder.UseSqlServer(@"Server=localhost;Database=ChatDB;Trusted_Connection=True;MultipleActiveResultSets=true;Uid=sa;Pwd=12salam12;");
         }
         
-        
       
+     
     }
 }

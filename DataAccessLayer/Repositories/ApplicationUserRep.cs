@@ -13,7 +13,12 @@ namespace DataAccessLayer.Repositories
 
         public ApplicationUser GetUserByUserName(string UserName)
         {
-            return _context.AspNetUsers.FirstOrDefault(u => u.UserName == UserName);
+            var data = from query in _context.AspNetUsers
+                    where query.UserName == UserName
+                    select query;
+                var user = data.FirstOrDefault();
+          
+            return user;
 
         }
     }

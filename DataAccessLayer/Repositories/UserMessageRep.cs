@@ -1,6 +1,8 @@
-﻿using System.Linq;
+﻿using System.Collections.Generic;
+using System.Linq;
 using Common.Enums;
 using Common.Model;
+using Common.UsingModels;
 
 namespace DataAccessLayer.Repositories
 {
@@ -16,31 +18,50 @@ namespace DataAccessLayer.Repositories
 
         }
 
-        public IQueryable<UserMessage> GetInboxByUserName(string userName)
+        public List<UserMessage> GetInboxByUserName(string userName)
         {
             var user = _applicationUserRep.GetUserByUserName(userName);
-            return user.UserMessages;
+            return user.UserMessages.ToList();
 
         }
         
-        public DBResponse AddMessageToInbox(string userName,UserMessage message)
+        public DBResponse AddMessageToInbox(MessageUM newmessage)
         {
+            
             var response=new DBResponse();
-            var user = _applicationUserRep.GetUserByUserName(userName);
-            if (user == null)
+            var fromuser = _applicationUserRep.GetUserByUserName(newmessage.FromId);
+            var touser = _applicationUserRep.GetUserByUserName(newmessage.ToId);
+
+
+            var receiptor = new List<MessageReceipter>()
+            {
+                new MessageReceipter()
+                {
+                    ReceipterUser = touser,
+                }
+            };
+            var message = new UserMessage()
+            {
+                SendDate = newmessage.SendDate,
+                ReadDate = newmessage.ReadDate,
+                Receivedate = newmessage.ReceiveDate,
+                 MessageReceipters = receiptor
+            };
+            
+             if (fromuser == null || touser == null)
             {
                 response.IsSucced = false;
                 response.Messages.Add("user not exist!");
                 return response;
             }
-            message.InboxOfUser = user;
-            _context.userMessages.Add(message);
+            message.FromUser = fromuser;
+
+
+            _context.UserMessages.Add(message);
             var resp = _context.SaveChanges();
-            if (resp != 1)
-            {
-                response.IsSucced = false;
-                response.Messages.Add("Data cannot insert to database!");                
-            }          
+
+//            response.IsSucced = false;
+//            response.Messages.Add("Data cannot insert to database!");             
             return response;
 
 

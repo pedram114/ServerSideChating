@@ -1,4 +1,5 @@
-﻿using Business.Interfaces;
+﻿using System;
+using Business.Interfaces;
 using Common.Model;
 using Common.ViewModels;
 using Microsoft.AspNetCore.Identity;
@@ -28,33 +29,44 @@ namespace WebApplication.APIs.Account
         public JsonResult Post([FromBody]LoginUserVM loginuser)
         {
             var response = new ApiResponse();
-            var user = _userManager.FindByEmailAsync(loginuser.Email);
-            if (user == null)
+            try
             {
-                response.IsSucced = false;                
-                response.Errors.Add("Username or password is incorrect!");
-                return new JsonResult(response);
-            }
+                var user = _userManager.FindByEmailAsync(loginuser.Email);
+                if (user == null)
+                {
+                    response.IsSucced = false;                
+                    response.Errors.Add("Username or password is incorrect!");
+                    return new JsonResult(response);
+                }
 //            if (!user.EmailConfirmed)
 //            {
 //                ModelState.AddModelError(string.Empty, "Confirm your email first");
 //                return View();
 //            }
 
-            var passwordSignInResult =  _signInManager.PasswordSignInAsync(loginuser.Email, loginuser.Password, isPersistent: loginuser.RememberMe, lockoutOnFailure: false);
-            response.IsSucced = passwordSignInResult.Result.Succeeded;
-            if (passwordSignInResult.Result.Succeeded)
+                var passwordSignInResult =  _signInManager.PasswordSignInAsync(loginuser.Email, loginuser.Password, isPersistent: loginuser.RememberMe, lockoutOnFailure: false);
+                response.IsSucced = passwordSignInResult.Result.Succeeded;
+                if (passwordSignInResult.Result.Succeeded)
+                {
+                    response.Redirect.Redirected = true;
+                    response.Redirect.RedirectLink = "/Home/Index";
+                    return new JsonResult(response);
+                }
+                else
+                {
+                    response.Errors.Add("Username or password is incorrect!");
+                    return new JsonResult(response);
+                }
+
+            }
+            catch (Exception e)
             {
-                response.Redirect.Redirected = true;
-                response.Redirect.RedirectLink = "/Home/Index";
+                Console.WriteLine(e);
+                response.IsSucced = false;                
+                response.Errors.Add("Database connection problem.");
                 return new JsonResult(response);
             }
-            else
-            {
-                response.Errors.Add("Username or password is incorrect!");
-                return new JsonResult(response);
-            }
-         
+           
         }
     }
 }

@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace DataAccessLayer.Migrations
 {
-    public partial class InitialDB : Migration
+    public partial class Initialize : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -51,7 +51,7 @@ namespace DataAccessLayer.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "clients",
+                name: "Clients",
                 columns: table => new
                 {
                     Id = table.Column<Guid>(nullable: false),
@@ -60,7 +60,7 @@ namespace DataAccessLayer.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_clients", x => x.Id);
+                    table.PrimaryKey("PK_Clients", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -170,7 +170,7 @@ namespace DataAccessLayer.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "userMessages",
+                name: "UserMessage",
                 columns: table => new
                 {
                     ID = table.Column<Guid>(nullable: false),
@@ -178,15 +178,40 @@ namespace DataAccessLayer.Migrations
                     SendDate = table.Column<DateTime>(nullable: false),
                     Receivedate = table.Column<DateTime>(nullable: false),
                     ReadDate = table.Column<DateTime>(nullable: false),
-                    FromUserId = table.Column<string>(nullable: true),
-                    InboxOfUserId = table.Column<long>(nullable: true)
+                    FromUserId = table.Column<long>(nullable: true)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_userMessages", x => x.ID);
+                    table.PrimaryKey("PK_UserMessage", x => x.ID);
                     table.ForeignKey(
-                        name: "FK_userMessages_AspNetUsers_InboxOfUserId",
-                        column: x => x.InboxOfUserId,
+                        name: "FK_UserMessage_AspNetUsers_FromUserId",
+                        column: x => x.FromUserId,
+                        principalTable: "AspNetUsers",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Restrict);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "MessageReceipters",
+                columns: table => new
+                {
+                    Id = table.Column<Guid>(nullable: false),
+                    ReceipterUserId = table.Column<long>(nullable: true),
+                    MessagecontentID = table.Column<Guid>(nullable: true),
+                    IsRead = table.Column<bool>(nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_MessageReceipters", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_MessageReceipters_UserMessage_MessagecontentID",
+                        column: x => x.MessagecontentID,
+                        principalTable: "UserMessage",
+                        principalColumn: "ID",
+                        onDelete: ReferentialAction.Restrict);
+                    table.ForeignKey(
+                        name: "FK_MessageReceipters_AspNetUsers_ReceipterUserId",
+                        column: x => x.ReceipterUserId,
                         principalTable: "AspNetUsers",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Restrict);
@@ -232,9 +257,19 @@ namespace DataAccessLayer.Migrations
                 filter: "[NormalizedUserName] IS NOT NULL");
 
             migrationBuilder.CreateIndex(
-                name: "IX_userMessages_InboxOfUserId",
-                table: "userMessages",
-                column: "InboxOfUserId");
+                name: "IX_MessageReceipters_MessagecontentID",
+                table: "MessageReceipters",
+                column: "MessagecontentID");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_MessageReceipters_ReceipterUserId",
+                table: "MessageReceipters",
+                column: "ReceipterUserId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_UserMessage_FromUserId",
+                table: "UserMessage",
+                column: "FromUserId");
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
@@ -255,13 +290,16 @@ namespace DataAccessLayer.Migrations
                 name: "AspNetUserTokens");
 
             migrationBuilder.DropTable(
-                name: "clients");
+                name: "Clients");
 
             migrationBuilder.DropTable(
-                name: "userMessages");
+                name: "MessageReceipters");
 
             migrationBuilder.DropTable(
                 name: "AspNetRoles");
+
+            migrationBuilder.DropTable(
+                name: "UserMessage");
 
             migrationBuilder.DropTable(
                 name: "AspNetUsers");

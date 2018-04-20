@@ -12,12 +12,15 @@ namespace Business.ServerSideSocketClasses
         #region Properties
 
         private Socket _ClientSocket { get; }
+        private MySocketType _Sockettype = MySocketType.Socket;
+        private bool _SocketHandshake = false; 
+        private string WebSocketSecKey { get; set; }
         private Encoding _Encoding { get; }
         public string ClientId { set; get; }
-        public Message SendingMessage { set; get; }
+        public MessageUM SendingMessage { set; get; }
 
         private string ClientIp { get; }
-        private readonly byte[] _readbuffer = new byte[2000];
+        private readonly byte[] _readbuffer = new byte[10000];
         private string _readMessagestr = "";
 
         #endregion
@@ -55,11 +58,11 @@ namespace Business.ServerSideSocketClasses
             }
         }
 
-        public Response SendMessage(Message MSG)
+        public Response SendMessage(MessageUM MSG)
         {
             try
             {
-                var sendingdata = MessageHandle.PrepareDataforSending(MSG,_Encoding);
+                var sendingdata = MessageHandle.PrepareDataforSending(MSG,_Encoding,_Sockettype,WebSocketSecKey);
                 _ClientSocket.Send(sendingdata);
                 return new Response
                 {
@@ -86,9 +89,33 @@ namespace Business.ServerSideSocketClasses
                 var countread = sock.EndReceive(ar);
                 if (countread > 0)
                 {
-                    var message = MessageHandle.PrepareReceivedData(_readbuffer,_Encoding);
-                    ClientId = message.FromId;
-                    SendingMessageQueue.SendingMessages.Enqueue(message);
+                    var data = _Encoding.GetString(_readbuffer);
+                    if (new System.Text.RegularExpressions.Regex("websocket").IsMatch(data) && !_SocketHandshake)
+                    {
+                        WebSocketSecKey = new System.Text.RegularExpressions.Regex("Sec-WebSocket-Key: (.*)")
+                            .Match(data).Groups[1].Value.Trim(); 
+                        const string eol = "\r\n"; // HTTP/1.1 defines the sequence CR LF as the end-of-line marker
+
+                        Byte[] response = Encoding.UTF8.GetBytes("HTTP/1.1 101 Switching Protocols" + eol
+                        + "Connection: Upgrade" +eol+ "Upgrade: websocket" +eol
+                        + "Sec-WebSocket-Accept: " +Convert.ToBase64String(System.Security.Cryptography.SHA1.Create().ComputeHash(Encoding.UTF8.GetBytes(
+                        WebSocketSecKey
+                        +"258EAFA5-E914-47DA-95CA-C5AB0DC85B11"))) + eol+ eol);
+                        
+                        _ClientSocket.Send(response);
+                        _SocketHandshake = true;
+                        _Sockettype = MySocketType.Websocket;
+                    }
+                    else
+                    {
+                        var message = MessageHandle.PrepareReceivedData(_readbuffer, _Encoding);
+                        if (!string.IsNullOrWhiteSpace(message.Text) && !string.IsNullOrWhiteSpace(message.FromId) &&
+                            !string.IsNullOrWhiteSpace(message.ToId))
+                        {
+                            ClientId = string.IsNullOrWhiteSpace(ClientId) ? message.FromId : ClientId;
+                            SendingMessageQueue.SendingMessages.Enqueue(message);
+                        }
+                    }
                 }
             }
             catch (Exception e)
@@ -105,7 +132,16 @@ namespace Business.ServerSideSocketClasses
 
    
        
-       
+        private string EncodeBase64(string text)
+        {
+            if (text == null)
+            {
+                return null;
+            }
+
+            byte[] textAsBytes = _Encoding.GetBytes(text);
+            return System.Convert.ToBase64String(textAsBytes);
+        }
 
         #endregion
     }

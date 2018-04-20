@@ -107,7 +107,27 @@ namespace DataAccessLayer.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("clients");
+                    b.ToTable("Clients");
+                });
+
+            modelBuilder.Entity("Common.Model.MessageReceipter", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<bool>("IsRead");
+
+                    b.Property<Guid?>("MessagecontentID");
+
+                    b.Property<long?>("ReceipterUserId");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("MessagecontentID");
+
+                    b.HasIndex("ReceipterUserId");
+
+                    b.ToTable("MessageReceipters");
                 });
 
             modelBuilder.Entity("Common.Model.UserMessage", b =>
@@ -115,9 +135,7 @@ namespace DataAccessLayer.Migrations
                     b.Property<Guid>("ID")
                         .ValueGeneratedOnAdd();
 
-                    b.Property<string>("FromUserId");
-
-                    b.Property<long?>("InboxOfUserId");
+                    b.Property<long?>("FromUserId");
 
                     b.Property<DateTime>("ReadDate");
 
@@ -129,9 +147,9 @@ namespace DataAccessLayer.Migrations
 
                     b.HasKey("ID");
 
-                    b.HasIndex("InboxOfUserId");
+                    b.HasIndex("FromUserId");
 
-                    b.ToTable("userMessages");
+                    b.ToTable("UserMessage");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<long>", b =>
@@ -215,11 +233,22 @@ namespace DataAccessLayer.Migrations
                     b.ToTable("AspNetUserTokens");
                 });
 
+            modelBuilder.Entity("Common.Model.MessageReceipter", b =>
+                {
+                    b.HasOne("Common.Model.UserMessage", "Messagecontent")
+                        .WithMany("MessageReceipters")
+                        .HasForeignKey("MessagecontentID");
+
+                    b.HasOne("Common.Model.ApplicationUser", "ReceipterUser")
+                        .WithMany("MessageReceiptors")
+                        .HasForeignKey("ReceipterUserId");
+                });
+
             modelBuilder.Entity("Common.Model.UserMessage", b =>
                 {
-                    b.HasOne("Common.Model.ApplicationUser", "InboxOfUser")
+                    b.HasOne("Common.Model.ApplicationUser", "FromUser")
                         .WithMany("UserMessages")
-                        .HasForeignKey("InboxOfUserId");
+                        .HasForeignKey("FromUserId");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<long>", b =>

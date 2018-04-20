@@ -2,8 +2,7 @@
 {
     public interface ITCPListener
     {
-        void ListenToPort();
-
+       
         void AcceptSocket();
     }
 }

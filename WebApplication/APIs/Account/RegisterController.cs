@@ -1,4 +1,6 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 using Business.Interfaces;
 using Common.Model;
 using Common.ViewModels;
@@ -40,26 +42,37 @@ namespace WebApplication.APIs.Account
             var newUser = new ApplicationUser 
             {
                 UserName = newuser.Email,
-                Email = newuser.Email
+                Email = newuser.Email,                
             };
 
-            var userCreationResult = _userManager.CreateAsync(newUser, newuser.Password);
-            response.IsSucced = userCreationResult.Result.Succeeded;
-            if (userCreationResult.Result.Succeeded)
+            try
             {
-                response.Redirect.Redirected = true;
-                response.Redirect.RedirectLink = "/Home/Index";
-                return new JsonResult(response);
+                var userCreationResult = _userManager.CreateAsync(newUser, newuser.Password);
+                response.IsSucced = userCreationResult.Result.Succeeded;
+                if (userCreationResult.Result.Succeeded)
+                {
+                    response.Redirect.Redirected = true;
+                    response.Redirect.RedirectLink = "/Home/Index";
+                    return new JsonResult(response);
 
+                }
+                else
+                {
+
+                    foreach (var error in userCreationResult.Result.Errors)
+                        response.Errors.Add(error.Description); 
+                    return new JsonResult(response);
+
+                }
             }
-            else
+            catch (Exception e)
             {
-
-                foreach (var error in userCreationResult.Result.Errors)
-                    response.Errors.Add(error.Description); 
+                response.IsSucced = false;                
+                response.Errors.Add("Database connection problem.");
                 return new JsonResult(response);
-
+                Console.WriteLine(e);              
             }
+       
            
             // var emailConfirmationToken =  _userManager.GenerateEmailConfirmationTokenAsync(newUser);
            // var tokenVerificationUrl = Url.Action("VerifyEmail", "Account", new {id = newUser.Id, token = emailConfirmationToken}, Request.Scheme);

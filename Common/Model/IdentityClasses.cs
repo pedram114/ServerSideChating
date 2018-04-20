@@ -1,11 +1,13 @@
-﻿using System.Linq;
+﻿using System.Collections.Generic;
+using System.Linq;
 using Microsoft.AspNetCore.Identity;
 
 namespace Common.Model
 {
     public class ApplicationUser : IdentityUser<long>
     {
-        public IQueryable<UserMessage> UserMessages { get; set; }
+        public virtual List<UserMessage> UserMessages { get; set; }
+        public virtual List<MessageReceipter> MessageReceiptors { get; set; }
     }
     
     public class CustomUserRole : IdentityUserRole<long> { }

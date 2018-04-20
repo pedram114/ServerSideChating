@@ -5,6 +5,7 @@ using System.Net.Sockets;
 using System.Text;
 using System.Threading;
 using Business.Interfaces;
+using DataAccessLayer;
 
 namespace Business.ServerSideSocketClasses
 {
@@ -14,6 +15,7 @@ namespace Business.ServerSideSocketClasses
         
         #region Properties
 
+        private readonly PedramDbContext _context;
         private readonly TcpListener _listener;
         public static IList<ClientSocket> Allclients;
 
@@ -21,20 +23,21 @@ namespace Business.ServerSideSocketClasses
         
         #region CTOR
 
-        public TCPListener(int portnumber)
+        public TCPListener(int portnumber,PedramDbContext context)
         {
             if (_listener == null)
                 _listener = new TcpListener(IPAddress.Any, portnumber);
             else
                 _listener.Server.Bind(new IPEndPoint(IPAddress.Any, portnumber));
-
+            _context = context;
             if (Allclients == null) Allclients = new List<ClientSocket>();
+            ListenToPort();
         }
 
         #endregion
 
 
-        public void ListenToPort()
+        private void ListenToPort()
         {
             _listener.Start();
             Console.WriteLine("Server Started");
@@ -46,13 +49,14 @@ namespace Business.ServerSideSocketClasses
                 _listener);
         }
 
-        private static void AcceptCallback(IAsyncResult arr)
+        private void AcceptCallback(IAsyncResult arr)
         {
             // Get the socket that handles the client request.
             var sockets = (TcpListener) arr.AsyncState;
             var handler = sockets.EndAcceptSocket(arr);
-
-            var newclient = new ClientSocket(handler, Encoding.ASCII);
+            _listener.BeginAcceptSocket(AcceptCallback,
+                _listener);
+            var newclient = new ClientSocket(handler, Encoding.UTF8);
             
             var nths = new Thread(CheckDatarezeive);
             nths.Start(newclient);
@@ -63,10 +67,11 @@ namespace Business.ServerSideSocketClasses
 
         private static void CheckDatarezeive(object client)
         {
-            while (true)
-            {
+//            while (true)
+//            {
                 ((ClientSocket)client).WaitforData();
-            }
+           //     Thread.Sleep(2000);
+          //  }
             
         }
 
